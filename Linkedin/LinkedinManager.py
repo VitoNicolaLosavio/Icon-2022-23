@@ -1,5 +1,3 @@
-from itertools import count
-
 from linkedin_api import linkedin
 import pandas as pd
 
