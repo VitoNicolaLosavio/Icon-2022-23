@@ -1,4 +1,4 @@
 from Linkedin import LinkedinManager
 
 if __name__ == '__main__':
-    LinkedinManager.LinkedinManager('miccoli.mariagrazia4@gmail.com', 'MGMiccoli2020')
+    LinkedinManager.LinkedinManager('yayamars04@gmail.com', 'Icon_2023')
