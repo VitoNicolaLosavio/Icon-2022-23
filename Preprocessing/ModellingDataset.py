@@ -78,14 +78,26 @@ class Dataset:
         plt.show()
 
     def create_feature_target(self):
+        """
+        Funzione usata per realizzare la feature target
+        ci interconnettiamo al prolog per verificare regole
+        e fatti definiti a livello aziendale
+        :return:
+        """
         prolog = Prolog()
         prolog.consult(sys.path[0] + '../Prolog_rules/rules.pl')
         print('sono qui')
         print(self.dataset.keys())
-        for _, val in self.dataset.iterrows():
+        for key, val in self.dataset.iterrows():
             target = bool(prolog.query(f"suitable(person({val['Role']},{val['Age']} ,{val['EducationField']} ,"
                                        f"{val['NumCompanies']} ,{val['BusinessTravel']} ))"))
             print(target)
+
+    def delete_outliers(self, colomn_name: str, max_value, replaced_variable):
+        print(self.dataset['NumCompaniesWorked'].value_counts())
+        self.dataset.all().replace([self.dataset.loc[(self.dataset[colomn_name] > max_value)]], replaced_variable)
+        print(self.dataset['NumCompaniesWorked'].max())
+
 
     def variabili_categoriche(self):
         allKeys = self.dataset.keys()

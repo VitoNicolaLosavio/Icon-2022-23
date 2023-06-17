@@ -25,7 +25,11 @@ if __name__ == '__main__':
     firstDataset.valutation_features("h")
     secondDataset.valutation_features("h")
 
-    firstDataset.create_feature_target()
+    #firstDataset.create_feature_target()
+
+    firstDataset.delete_outliers("NumCompaniesWorked", 7, 9)
+    firstDataset.valutation_features("h")
+
     #NOTE DA RIMUOVERE
     #TO DO:
     #Overrated in: MontlyInCome --> min 1009 max 20.0k
