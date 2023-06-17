@@ -86,3 +86,24 @@ class Dataset:
             target = bool(prolog.query(f"suitable(person({val['Role']},{val['Age']} ,{val['EducationField']} ,"
                                        f"{val['NumCompanies']} ,{val['BusinessTravel']} ))"))
             print(target)
+
+    def variabili_categoriche(self):
+        allKeys = self.dataset.keys()
+        for key in allKeys:
+            if key == 'BusinessTravel':
+                self.dataset[key].replace('TravelRarely', 1)
+                self.dataset[key].replace('TravelFrequently', 2)
+                self.dataset[key].replace('NoTravel', 0)
+            if key == 'Gender':
+                self.dataset[key].replace('Male', 1)
+                self.dataset[key].replace('Female', 0)
+            if key == "JobRole":
+                self.dataset[key].replace(['researchScientist','manager','laboratoryTechnician'], 1)
+                self.dataset[key].replace('', 0)
+            if key == "MaritalStatus":
+                self.dataset[key].replace('Single', 0)
+                self.dataset[key].replace('Married', 1)
+                self.dataset[key].replace('Divorced', 2)
+            if key == "OverTime":
+                self.dataset[key].replace('Yes', 1)
+                self.dataset[key].replace('No', 0)
