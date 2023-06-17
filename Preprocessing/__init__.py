@@ -18,13 +18,14 @@ if __name__ == '__main__':
                                 'YearsSinceLastPromotion', 'YearsWithCurrManager']
 
     # Drop delle features che non servono
-    #firstDataset.drop_columns(featureDropFirstDataset, "First_dataset.csv")
-    #secondDataset.drop_columns(featureDropSecondDataset, "Second_dataset.csv")
+    firstDataset.drop_columns(featureDropFirstDataset, "First_dataset.csv")
+    secondDataset.drop_columns(featureDropSecondDataset, "Second_dataset.csv")
 
     # Generazione dei grafici relativi alla valutazione delle features
-    firstDataset.valutation_features('../Datasets/First_dataset.csv', "v")
-    secondDataset.valutation_features('../Datasets/Second_dataset.csv', "h")
+    firstDataset.valutation_features("h")
+    secondDataset.valutation_features("h")
 
+    firstDataset.create_feature_target()
     #NOTE DA RIMUOVERE
     #TO DO:
     #Overrated in: MontlyInCome --> min 1009 max 20.0k
