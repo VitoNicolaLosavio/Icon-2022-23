@@ -93,12 +93,6 @@ class Dataset:
                                        f"{val['NumCompanies']} ,{val['BusinessTravel']} ))"))
             print(target)
 
-    def delete_outliers(self, colomn_name: str, max_value, replaced_variable):
-        print(self.dataset['NumCompaniesWorked'].value_counts())
-        self.dataset.all().replace([self.dataset.loc[(self.dataset[colomn_name] > max_value)]], replaced_variable)
-        print(self.dataset['NumCompaniesWorked'].max())
-
-
     def variabili_categoriche(self):
         allKeys = self.dataset.keys()
         for key in allKeys:
