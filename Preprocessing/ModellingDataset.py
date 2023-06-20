@@ -2,7 +2,7 @@ import sys
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-from pyswip import Prolog
+#from pyswip import Prolog
 import numpy as np
 
 
@@ -91,7 +91,7 @@ class Dataset:
             result.append(bool(list(prolog.query(query))))
 
         self.dataset['Suitable'] = result
-        self.write_csv("Complete_first_dataset.csv")
+        #self.write_csv("Complete_first_dataset.csv")
 
     def count_variables(self):
         """
