@@ -7,6 +7,8 @@ from Models.SVM import SVM
 from Models.DecisionTree import DecisionTree
 from Models.KNN import KNN
 from Models.NeuralNetwork import NeuralNetwork
+from Models.BayessianNaiveNetwork import GaussianNeuralBayes
+from Models.KMeans import KMeansClass
 from Models.LogisticRegression import LogisticRegressionClass
 
 if __name__ == '__main__':
@@ -63,6 +65,8 @@ if __name__ == '__main__':
     SVM(x_train, x_test, y_train, y_test)
     KNN(x_train, x_test, y_train, y_test)
     NeuralNetwork(x_train, x_test, y_train, y_test)
+    GaussianNeuralBayes(x_train, x_test, y_train, y_test)
+    KMeansClass(x_train, x_test, y_train, y_test)
     #LogisticRegressionClass(x_train, x_test, y_train, y_test, seed)
 
 
@@ -85,4 +89,6 @@ if __name__ == '__main__':
     SVM(x_train, x_test, y_train, y_test)
     KNN(x_train, x_test, y_train, y_test)
     NeuralNetwork(x_train, x_test, y_train, y_test)
+    GaussianNeuralBayes(x_train, x_test, y_train, y_test)
+    KMeansClass(x_train, x_test, y_train, y_test)
     #LogisticRegressionClass(x_train, x_test, y_train, y_test, seed)
