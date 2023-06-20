@@ -22,15 +22,21 @@ if __name__ == '__main__':
     secondDataset.drop_columns(featureDropSecondDataset, "Second_dataset.csv")
 
     # Generazione dei grafici relativi alla valutazione delle features
-    firstDataset.valutation_features("h")
-    secondDataset.valutation_features("h")
+    #firstDataset.valutation_features("h")
+    #secondDataset.valutation_features("h")
+
 
     #firstDataset.create_feature_target()
 
-    firstDataset.delete_outliers("NumCompaniesWorked", 7, 9)
-    firstDataset.valutation_features("h")
+    firstDataset.create_feature_target()
 
-    #NOTE DA RIMUOVERE
-    #TO DO:
-    #Overrated in: MontlyInCome --> min 1009 max 20.0k
-    #              NumCompaniesWorked --> min 0 max 9
+    firstDataset.categorical_var_normalization("Normalized_FirstDataset.csv")
+    secondDataset.categorical_var_normalization("Normalized_SecondDataset.csv")
+
+    normal_firstDataset = Dataset('../Datasets/Normalized_FirstDataset.csv')
+    normal_secondDataset = Dataset('../Datasets/Normalized_SecondDataset.csv')
+
+    #print('VERIFICA PRIMO DATASET\n')
+    #normal_firstDataset.count_variables()
+    #print('VERIFICA SECONDO DATASET\n')
+    #normal_secondDataset.count_variables()

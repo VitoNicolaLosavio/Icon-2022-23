@@ -3,6 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 from pyswip import Prolog
+import numpy as np
 
 
 class Dataset:
@@ -55,15 +56,13 @@ class Dataset:
 
         """
         rows = self.dataset.to_numpy()  # return: list of array for each columns
-
         df = pd.DataFrame(rows)
         df.columns = self.dataset.keys()
         df.to_csv("../Datasets/" + file_name, index=False)
 
-    def valutation_features(self, orientation: str):
+    def create_boxplot(self, orientation: str):
         """
-        Funzione per la valutazione delle features di interesse
-        tramite grafici
+        Funzione per la creazione dei boxplot
 
         Parameters
         ----------
@@ -79,37 +78,68 @@ class Dataset:
 
     def create_feature_target(self):
         """
-        Funzione usata per realizzare la feature target
-        ci interconnettiamo al prolog per verificare regole
-        e fatti definiti a livello aziendale
-        :return:
+        Funzione per la realizzazione della feature target con l'interconnessione
+        al prolog per la verifica delle regole e dei fatti definiti a livello aziendale
+
         """
         prolog = Prolog()
-        prolog.consult(sys.path[0] + '../Prolog_rules/rules.pl')
-        print('sono qui')
-        print(self.dataset.keys())
-        for key, val in self.dataset.iterrows():
-            target = bool(prolog.query(f"suitable(person({val['Role']},{val['Age']} ,{val['EducationField']} ,"
-                                       f"{val['NumCompanies']} ,{val['BusinessTravel']} ))"))
-            print(target)
+        prolog.consult("rules.pl")
+        result = []
 
-    def variabili_categoriche(self):
+        for _, val in self.dataset.iterrows():
+            query = f"suitable(person({str(val['JobRole']).replace(' ','')},{val['Age']},{str(val['EducationField']).replace(' ','')},{val['NumCompaniesWorked']},{str(val['BusinessTravel']).replace('_','').replace('-','')}))"
+            result.append(bool(list(prolog.query(query))))
+
+        self.dataset['Suitable'] = result
+        self.write_csv("Complete_first_dataset.csv")
+
+    def count_variables(self):
+        """
+        Funzione per il conteggio delle variabili
+        """
+        keys = self.dataset.keys()
+        for i in keys:
+            print(self.dataset[i].value_counts())
+
+
+
+    def categorical_var_normalization(self, file_name:str):
+        """
+        Funzione per la normalizzazione delle variabili categoriche
+        :param file_name: nome del nuovo file csv
+        """
         allKeys = self.dataset.keys()
+
         for key in allKeys:
             if key == 'BusinessTravel':
-                self.dataset[key].replace('TravelRarely', 1)
-                self.dataset[key].replace('TravelFrequently', 2)
-                self.dataset[key].replace('NoTravel', 0)
+                self.dataset[key] = self.dataset[key].replace('Travel_Rarely', 1)
+                self.dataset[key] = self.dataset[key].replace('Travel_Frequently', 2)
+                self.dataset[key] = self.dataset[key].replace('Non-Travel', 0)
             if key == 'Gender':
-                self.dataset[key].replace('Male', 1)
-                self.dataset[key].replace('Female', 0)
+                self.dataset[key] = self.dataset[key].replace('Male', 1)
+                self.dataset[key] = self.dataset[key].replace('Female', 0)
+            if key == 'EducationField':
+                all_possible_values = self.dataset[key].unique().tolist()
+                all_possible_values.remove('Life Sciences')
+                all_possible_values.remove('Technical Degree')
+                self.dataset[key] = self.dataset[key].replace(['Life Sciences', 'Technical Degree'], 1)
+                self.dataset[key] = self.dataset[key].replace(all_possible_values, 0)
             if key == "JobRole":
-                self.dataset[key].replace(['researchScientist','manager','laboratoryTechnician'], 1)
-                self.dataset[key].replace('', 0)
+                all_possible_values = self.dataset[key].unique().tolist()
+                all_possible_values.remove('Research Scientist')
+                all_possible_values.remove('Manager')
+                all_possible_values.remove('Laboratory Technician')
+                self.dataset[key] = self.dataset[key].replace(['Research Scientist', 'Manager', 'Laboratory Technician'], 1)
+                self.dataset[key] = self.dataset[key].replace(all_possible_values, 0)
             if key == "MaritalStatus":
-                self.dataset[key].replace('Single', 0)
-                self.dataset[key].replace('Married', 1)
-                self.dataset[key].replace('Divorced', 2)
+                self.dataset[key] = self.dataset[key].replace('Single', 0)
+                self.dataset[key] = self.dataset[key].replace('Married', 1)
+                self.dataset[key] = self.dataset[key].replace('Divorced', 2)
             if key == "OverTime":
-                self.dataset[key].replace('Yes', 1)
-                self.dataset[key].replace('No', 0)
+                self.dataset[key] = self.dataset[key].replace('Yes', 1)
+                self.dataset[key] = self.dataset[key].replace('No', 0)
+            if key == "Suitable":
+                self.dataset[key] = self.dataset[key].replace(False, 0)
+                self.dataset[key] = self.dataset[key].replace(True, 1)
+
+        self.write_csv(file_name)

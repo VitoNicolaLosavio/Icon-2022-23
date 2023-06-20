@@ -1,0 +1,1471 @@
+Age,BusinessTravel,EducationField,Gender,JobLevel,JobRole,NumCompaniesWorked,Suitable
+41,Travel_Rarely,Life Sciences,Female,2,Sales Executive,8,False
+49,Travel_Frequently,Life Sciences,Male,2,Research Scientist,1,False
+37,Travel_Rarely,Other,Male,1,Laboratory Technician,6,False
+33,Travel_Frequently,Life Sciences,Female,1,Research Scientist,1,True
+27,Travel_Rarely,Medical,Male,1,Laboratory Technician,9,False
+32,Travel_Frequently,Life Sciences,Male,1,Laboratory Technician,0,True
+59,Travel_Rarely,Medical,Female,1,Laboratory Technician,4,False
+30,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,1,True
+38,Travel_Frequently,Life Sciences,Male,3,Manufacturing Director,0,True
+36,Travel_Rarely,Medical,Male,2,Healthcare Representative,6,False
+35,Travel_Rarely,Medical,Male,1,Laboratory Technician,0,True
+29,Travel_Rarely,Life Sciences,Female,2,Laboratory Technician,0,True
+31,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,True
+34,Travel_Rarely,Medical,Male,1,Laboratory Technician,0,True
+28,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,5,False
+29,Travel_Rarely,Life Sciences,Female,3,Manufacturing Director,1,True
+32,Travel_Rarely,Life Sciences,Male,1,Research Scientist,0,True
+22,Non-Travel,Medical,Male,1,Laboratory Technician,1,True
+53,Travel_Rarely,Life Sciences,Female,4,Manager,2,False
+38,Travel_Rarely,Life Sciences,Male,1,Research Scientist,5,False
+24,Non-Travel,Other,Female,2,Manufacturing Director,0,True
+36,Travel_Rarely,Life Sciences,Male,1,Sales Representative,7,False
+34,Travel_Rarely,Life Sciences,Female,3,Research Director,0,True
+21,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,True
+34,Travel_Rarely,Medical,Male,1,Research Scientist,2,True
+53,Travel_Rarely,Other,Female,5,Manager,4,False
+32,Travel_Frequently,Life Sciences,Female,1,Research Scientist,1,True
+42,Travel_Rarely,Marketing,Male,2,Sales Executive,0,False
+44,Travel_Rarely,Medical,Female,3,Healthcare Representative,3,False
+46,Travel_Rarely,Marketing,Female,5,Manager,3,False
+33,Travel_Rarely,Medical,Male,1,Laboratory Technician,4,True
+44,Travel_Rarely,Other,Male,2,Healthcare Representative,2,False
+30,Travel_Rarely,Medical,Male,1,Laboratory Technician,1,True
+39,Travel_Rarely,Technical Degree,Male,2,Sales Representative,3,False
+24,Travel_Rarely,Medical,Male,1,Research Scientist,2,True
+43,Travel_Rarely,Medical,Female,1,Research Scientist,1,False
+50,Travel_Rarely,Marketing,Male,1,Sales Representative,1,False
+35,Travel_Rarely,Marketing,Female,1,Sales Representative,1,True
+36,Travel_Rarely,Life Sciences,Female,1,Research Scientist,9,False
+33,Travel_Frequently,Life Sciences,Female,2,Sales Executive,2,True
+35,Travel_Rarely,Other,Male,1,Laboratory Technician,1,True
+27,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,1,True
+26,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,1,True
+27,Travel_Frequently,Life Sciences,Male,3,Sales Executive,1,True
+30,Travel_Frequently,Medical,Female,2,Laboratory Technician,1,True
+41,Travel_Rarely,Technical Degree,Female,5,Research Director,1,False
+34,Non-Travel,Marketing,Male,2,Sales Executive,0,True
+37,Travel_Rarely,Life Sciences,Male,1,Research Scientist,4,True
+46,Travel_Frequently,Marketing,Male,2,Sales Executive,4,False
+35,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,1,True
+48,Travel_Rarely,Life Sciences,Male,3,Laboratory Technician,9,False
+28,Travel_Rarely,Technical Degree,Male,1,Laboratory Technician,1,True
+44,Travel_Rarely,Marketing,Female,2,Sales Executive,5,False
+35,Non-Travel,Medical,Male,3,Healthcare Representative,2,True
+26,Travel_Rarely,Marketing,Female,2,Sales Executive,7,False
+33,Travel_Frequently,Life Sciences,Female,3,Research Director,1,True
+35,Travel_Frequently,Life Sciences,Male,3,Sales Executive,1,True
+35,Travel_Rarely,Medical,Female,1,Laboratory Technician,3,True
+31,Travel_Rarely,Life Sciences,Male,2,Laboratory Technician,3,True
+37,Travel_Rarely,Life Sciences,Male,2,Manufacturing Director,1,True
+32,Travel_Rarely,Medical,Male,2,Manufacturing Director,1,True
+38,Travel_Frequently,Life Sciences,Female,2,Laboratory Technician,1,True
+50,Travel_Rarely,Medical,Female,5,Research Director,5,False
+59,Travel_Rarely,Life Sciences,Female,3,Sales Executive,7,False
+36,Travel_Rarely,Technical Degree,Female,3,Healthcare Representative,1,True
+55,Travel_Rarely,Medical,Female,4,Manager,2,False
+36,Travel_Frequently,Life Sciences,Male,2,Manufacturing Director,1,True
+45,Travel_Rarely,Life Sciences,Male,3,Research Scientist,2,False
+35,Travel_Frequently,Medical,Male,1,Research Scientist,4,True
+36,Travel_Rarely,Medical,Male,1,Research Scientist,0,True
+59,Travel_Frequently,Life Sciences,Female,2,Sales Executive,7,False
+29,Travel_Rarely,Life Sciences,Male,1,Research Scientist,0,True
+31,Travel_Rarely,Medical,Male,1,Research Scientist,1,True
+32,Travel_Rarely,Life Sciences,Male,2,Research Scientist,1,True
+36,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,3,True
+31,Travel_Rarely,Life Sciences,Female,2,Manufacturing Director,1,True
+35,Travel_Rarely,Marketing,Male,2,Sales Executive,0,True
+45,Travel_Rarely,Other,Male,3,Research Director,4,False
+37,Travel_Rarely,Medical,Male,3,Research Director,4,True
+46,Travel_Rarely,Medical,Male,2,Human Resources,8,False
+30,Travel_Rarely,Life Sciences,Male,2,Laboratory Technician,1,True
+35,Travel_Rarely,Medical,Male,1,Research Scientist,1,True
+55,Travel_Rarely,Life Sciences,Male,3,Sales Executive,3,False
+38,Non-Travel,Medical,Female,2,Research Scientist,7,False
+34,Travel_Rarely,Medical,Male,2,Manufacturing Director,1,True
+56,Travel_Rarely,Life Sciences,Male,3,Manufacturing Director,4,False
+23,Travel_Rarely,Technical Degree,Male,1,Sales Representative,3,True
+51,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,3,False
+30,Travel_Rarely,Life Sciences,Male,2,Healthcare Representative,1,True
+46,Travel_Rarely,Medical,Male,3,Sales Executive,1,False
+40,Travel_Frequently,Life Sciences,Male,4,Healthcare Representative,1,False
+51,Travel_Rarely,Marketing,Male,2,Sales Executive,0,False
+30,Travel_Rarely,Medical,Female,2,Sales Executive,1,True
+46,Travel_Frequently,Medical,Male,3,Healthcare Representative,2,False
+32,Travel_Rarely,Medical,Male,2,Sales Executive,1,True
+54,Travel_Rarely,Technical Degree,Female,3,Research Director,9,False
+24,Travel_Rarely,Other,Female,2,Sales Executive,0,True
+28,Non-Travel,Medical,Male,2,Sales Executive,1,True
+58,Travel_Rarely,Medical,Male,4,Sales Executive,0,False
+44,Non-Travel,Medical,Male,2,Laboratory Technician,4,False
+37,Travel_Rarely,Human Resources,Male,1,Human Resources,4,True
+32,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,True
+20,Travel_Frequently,Life Sciences,Female,1,Laboratory Technician,1,False
+34,Travel_Rarely,Other,Female,2,Research Scientist,1,True
+37,Non-Travel,Life Sciences,Male,2,Healthcare Representative,5,False
+59,Non-Travel,Human Resources,Female,5,Manager,9,False
+50,Travel_Frequently,Life Sciences,Female,5,Research Director,3,False
+25,Travel_Rarely,Marketing,Male,2,Sales Executive,1,True
+25,Travel_Rarely,Medical,Male,1,Research Scientist,1,True
+22,Travel_Rarely,Medical,Female,1,Laboratory Technician,1,True
+51,Travel_Frequently,Medical,Female,3,Healthcare Representative,3,False
+34,Travel_Frequently,Life Sciences,Male,2,Laboratory Technician,1,True
+54,Non-Travel,Human Resources,Female,4,Manager,2,False
+24,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,0,True
+34,Travel_Rarely,Life Sciences,Female,2,Research Scientist,6,False
+37,Travel_Rarely,Life Sciences,Male,3,Sales Executive,2,True
+34,Travel_Rarely,Medical,Female,3,Manager,2,True
+36,Travel_Frequently,Technical Degree,Female,3,Sales Executive,0,True
+36,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,5,False
+43,Travel_Frequently,Life Sciences,Male,4,Manager,1,False
+30,Travel_Frequently,Life Sciences,Male,1,Research Scientist,1,True
+33,Non-Travel,Marketing,Male,2,Sales Executive,0,True
+56,Travel_Rarely,Life Sciences,Female,1,Research Scientist,9,False
+51,Travel_Rarely,Life Sciences,Male,5,Research Director,7,False
+31,Travel_Rarely,Life Sciences,Male,2,Sales Executive,4,True
+26,Travel_Rarely,Other,Female,1,Research Scientist,1,True
+58,Travel_Rarely,Medical,Female,3,Healthcare Representative,1,False
+19,Travel_Rarely,Marketing,Male,1,Sales Representative,1,False
+22,Travel_Rarely,Technical Degree,Male,1,Laboratory Technician,0,True
+49,Travel_Rarely,Medical,Female,2,Manufacturing Director,1,False
+43,Travel_Frequently,Medical,Female,1,Research Scientist,4,False
+50,Travel_Frequently,Marketing,Female,3,Sales Executive,4,False
+31,Travel_Rarely,Life Sciences,Female,2,Sales Executive,3,True
+41,Travel_Rarely,Life Sciences,Male,3,Sales Executive,3,False
+26,Travel_Rarely,Life Sciences,Female,1,Human Resources,1,True
+36,Travel_Rarely,Medical,Male,2,Manufacturing Director,6,False
+51,Travel_Frequently,Life Sciences,Male,3,Manufacturing Director,2,False
+39,Travel_Rarely,Life Sciences,Female,2,Sales Executive,4,False
+25,Travel_Rarely,Life Sciences,Male,2,Sales Executive,2,True
+30,Travel_Rarely,Human Resources,Male,2,Human Resources,0,True
+32,Travel_Rarely,Medical,Female,1,Laboratory Technician,7,False
+45,Travel_Rarely,Medical,Male,1,Research Scientist,5,False
+38,Travel_Rarely,Technical Degree,Female,2,Research Scientist,3,True
+30,Travel_Rarely,Life Sciences,Female,1,Research Scientist,1,True
+32,Travel_Frequently,Medical,Male,2,Sales Executive,0,True
+30,Travel_Rarely,Technical Degree,Female,1,Research Scientist,5,False
+30,Travel_Rarely,Medical,Male,1,Laboratory Technician,0,True
+41,Travel_Frequently,Life Sciences,Male,4,Manager,4,False
+41,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,2,False
+19,Travel_Rarely,Medical,Female,1,Laboratory Technician,1,False
+40,Travel_Frequently,Medical,Female,2,Research Scientist,1,False
+35,Travel_Rarely,Marketing,Male,3,Sales Executive,1,True
+53,Travel_Rarely,Marketing,Male,2,Sales Representative,2,False
+45,Travel_Rarely,Life Sciences,Male,2,Laboratory Technician,8,False
+32,Travel_Frequently,Marketing,Female,3,Sales Executive,1,True
+29,Non-Travel,Technical Degree,Male,2,Manufacturing Director,1,True
+51,Travel_Rarely,Medical,Male,2,Manufacturing Director,2,False
+58,Travel_Rarely,Medical,Female,1,Research Scientist,4,False
+40,Travel_Rarely,Marketing,Male,3,Sales Executive,7,False
+34,Travel_Frequently,Marketing,Female,1,Sales Representative,6,False
+22,Travel_Rarely,Medical,Male,1,Research Scientist,1,True
+27,Non-Travel,Medical,Male,1,Research Scientist,6,False
+28,Travel_Rarely,Medical,Male,1,Research Scientist,1,True
+57,Travel_Rarely,Life Sciences,Male,3,Healthcare Representative,3,False
+27,Non-Travel,Medical,Male,1,Research Scientist,1,True
+50,Travel_Rarely,Life Sciences,Female,5,Manager,3,False
+41,Travel_Rarely,Life Sciences,Male,1,Research Scientist,4,False
+30,Travel_Rarely,Life Sciences,Female,3,Sales Executive,2,True
+38,Travel_Rarely,Life Sciences,Female,2,Sales Executive,4,True
+32,Travel_Rarely,Life Sciences,Male,1,Research Scientist,3,True
+27,Travel_Rarely,Technical Degree,Male,1,Research Scientist,0,True
+19,Travel_Frequently,Technical Degree,Female,1,Sales Representative,0,False
+36,Travel_Frequently,Medical,Male,1,Laboratory Technician,4,True
+30,Non-Travel,Medical,Male,2,Laboratory Technician,1,True
+45,Travel_Rarely,Life Sciences,Female,2,Sales Executive,4,False
+56,Travel_Rarely,Life Sciences,Female,1,Research Scientist,4,False
+33,Travel_Rarely,Life Sciences,Male,1,Research Scientist,0,True
+19,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,1,False
+46,Travel_Rarely,Marketing,Female,3,Sales Executive,1,False
+38,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,1,True
+31,Travel_Rarely,Medical,Female,1,Research Scientist,8,False
+34,Travel_Rarely,Medical,Female,1,Research Scientist,2,True
+41,Travel_Rarely,Marketing,Female,1,Sales Representative,1,False
+50,Travel_Rarely,Medical,Male,1,Laboratory Technician,2,False
+53,Travel_Rarely,Medical,Female,2,Manufacturing Director,1,False
+33,Travel_Rarely,Medical,Female,1,Research Scientist,1,True
+40,Travel_Rarely,Medical,Female,5,Manager,1,False
+55,Travel_Rarely,Medical,Male,5,Research Director,8,False
+34,Travel_Frequently,Life Sciences,Male,2,Manufacturing Director,1,True
+51,Travel_Rarely,Medical,Female,4,Healthcare Representative,3,False
+52,Travel_Rarely,Life Sciences,Male,5,Manager,0,False
+27,Travel_Rarely,Medical,Female,1,Research Scientist,1,True
+35,Travel_Rarely,Life Sciences,Male,2,Manufacturing Director,3,True
+43,Non-Travel,Medical,Male,1,Research Scientist,4,False
+45,Non-Travel,Medical,Male,4,Manager,9,False
+37,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,True
+35,Travel_Frequently,Medical,Female,2,Laboratory Technician,5,False
+42,Non-Travel,Medical,Female,2,Manufacturing Director,2,False
+38,Travel_Rarely,Life Sciences,Male,2,Manufacturing Director,9,False
+38,Travel_Rarely,Technical Degree,Male,2,Manufacturing Director,3,True
+27,Travel_Frequently,Technical Degree,Male,2,Manufacturing Director,5,False
+49,Non-Travel,Life Sciences,Male,2,Manufacturing Director,1,False
+34,Travel_Frequently,Medical,Male,1,Research Scientist,1,True
+40,Travel_Rarely,Medical,Male,2,Laboratory Technician,8,False
+38,Travel_Rarely,Medical,Male,2,Healthcare Representative,7,False
+29,Travel_Rarely,Marketing,Female,3,Sales Executive,1,True
+22,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,True
+36,Travel_Frequently,Medical,Female,1,Laboratory Technician,1,True
+40,Non-Travel,Life Sciences,Male,2,Healthcare Representative,9,False
+46,Travel_Rarely,Medical,Male,3,Healthcare Representative,7,False
+32,Travel_Rarely,Medical,Male,3,Sales Executive,1,True
+30,Non-Travel,Life Sciences,Male,3,Manufacturing Director,1,True
+27,Travel_Frequently,Life Sciences,Female,2,Sales Executive,1,True
+51,Travel_Rarely,Life Sciences,Male,3,Research Director,5,False
+30,Travel_Rarely,Technical Degree,Female,1,Research Scientist,5,False
+41,Travel_Rarely,Life Sciences,Female,3,Manager,3,False
+30,Travel_Frequently,Marketing,Female,2,Sales Executive,5,False
+29,Travel_Rarely,Technical Degree,Male,1,Research Scientist,0,True
+45,Non-Travel,Medical,Female,3,Sales Executive,6,False
+54,Travel_Rarely,Marketing,Female,2,Sales Executive,2,False
+36,Travel_Rarely,Life Sciences,Male,2,Laboratory Technician,8,False
+33,Travel_Rarely,Medical,Female,1,Research Scientist,6,False
+37,Travel_Frequently,Other,Male,3,Research Director,1,True
+38,Travel_Rarely,Life Sciences,Male,3,Sales Executive,0,True
+31,Non-Travel,Medical,Male,2,Manufacturing Director,0,True
+59,Travel_Rarely,Life Sciences,Male,1,Research Scientist,3,False
+37,Travel_Frequently,Marketing,Male,1,Sales Representative,4,True
+29,Travel_Frequently,Medical,Female,3,Sales Executive,1,True
+35,Travel_Frequently,Marketing,Female,3,Sales Executive,1,True
+29,Travel_Rarely,Medical,Male,1,Research Scientist,1,True
+52,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,7,False
+42,Travel_Rarely,Technical Degree,Male,5,Manager,1,False
+59,Travel_Rarely,Medical,Male,1,Human Resources,8,False
+50,Travel_Rarely,Medical,Female,5,Manager,3,False
+33,Travel_Rarely,Medical,Male,1,Laboratory Technician,5,False
+43,Travel_Rarely,Marketing,Female,4,Manager,5,False
+33,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,7,False
+52,Non-Travel,Life Sciences,Male,5,Manager,1,False
+32,Travel_Rarely,Life Sciences,Female,1,Sales Representative,2,True
+32,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,0,True
+39,Travel_Rarely,Medical,Female,1,Laboratory Technician,7,False
+32,Non-Travel,Marketing,Male,2,Sales Executive,0,True
+41,Travel_Rarely,Life Sciences,Male,2,Research Scientist,2,False
+40,Travel_Rarely,Technical Degree,Male,2,Research Scientist,1,False
+45,Travel_Rarely,Other,Male,5,Manager,0,False
+31,Travel_Frequently,Medical,Male,3,Research Director,9,False
+33,Travel_Rarely,Life Sciences,Female,1,Research Scientist,1,True
+34,Travel_Rarely,Life Sciences,Male,2,Manufacturing Director,6,False
+37,Travel_Rarely,Medical,Female,1,Research Scientist,2,True
+45,Travel_Frequently,Life Sciences,Male,2,Manufacturing Director,4,False
+37,Travel_Frequently,Medical,Male,3,Manufacturing Director,6,False
+39,Travel_Frequently,Technical Degree,Female,3,Healthcare Representative,0,False
+29,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,True
+42,Travel_Rarely,Life Sciences,Female,2,Research Scientist,3,False
+29,Travel_Rarely,Marketing,Male,2,Sales Executive,2,True
+25,Travel_Rarely,Life Sciences,Female,2,Manufacturing Director,0,True
+42,Travel_Rarely,Medical,Female,1,Laboratory Technician,0,False
+40,Travel_Rarely,Medical,Male,5,Research Director,0,False
+51,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,False
+31,Travel_Frequently,Medical,Male,1,Laboratory Technician,0,True
+32,Travel_Frequently,Life Sciences,Male,1,Laboratory Technician,1,True
+38,Non-Travel,Life Sciences,Male,2,Sales Executive,3,True
+32,Travel_Rarely,Technical Degree,Male,2,Laboratory Technician,4,True
+46,Travel_Rarely,Technical Degree,Female,4,Manager,3,False
+28,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,2,True
+29,Travel_Rarely,Medical,Male,2,Sales Executive,2,True
+31,Travel_Rarely,Medical,Male,2,Healthcare Representative,0,True
+25,Non-Travel,Life Sciences,Male,2,Healthcare Representative,1,True
+45,Travel_Rarely,Medical,Male,4,Healthcare Representative,0,False
+36,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,0,True
+55,Travel_Rarely,Medical,Male,5,Manager,0,False
+47,Non-Travel,Life Sciences,Male,3,Manager,1,False
+28,Travel_Rarely,Medical,Male,1,Research Scientist,1,True
+37,Travel_Rarely,Medical,Male,2,Sales Executive,4,True
+21,Travel_Rarely,Medical,Male,1,Research Scientist,1,True
+37,Non-Travel,Medical,Female,3,Research Director,2,True
+35,Travel_Rarely,Life Sciences,Female,3,Manager,7,False
+38,Travel_Rarely,Medical,Female,2,Sales Executive,1,True
+26,Travel_Frequently,Life Sciences,Female,2,Manufacturing Director,1,True
+50,Travel_Rarely,Life Sciences,Male,5,Research Director,3,False
+53,Travel_Rarely,Medical,Male,4,Research Director,3,False
+42,Travel_Rarely,Life Sciences,Male,2,Sales Executive,1,False
+29,Travel_Frequently,Life Sciences,Male,2,Sales Executive,1,True
+55,Travel_Rarely,Technical Degree,Male,2,Laboratory Technician,3,False
+26,Travel_Frequently,Medical,Male,2,Healthcare Representative,1,True
+37,Travel_Rarely,Life Sciences,Female,1,Research Scientist,1,True
+44,Travel_Frequently,Life Sciences,Male,1,Laboratory Technician,3,False
+38,Travel_Rarely,Life Sciences,Male,2,Healthcare Representative,9,False
+26,Travel_Rarely,Medical,Male,1,Laboratory Technician,2,True
+28,Travel_Rarely,Life Sciences,Female,1,Research Scientist,1,True
+49,Travel_Frequently,Life Sciences,Female,5,Research Director,9,False
+36,Travel_Rarely,Technical Degree,Male,2,Research Scientist,4,True
+31,Travel_Frequently,Marketing,Female,1,Sales Representative,1,True
+26,Travel_Rarely,Marketing,Male,2,Sales Executive,1,True
+37,Travel_Frequently,Medical,Male,1,Research Scientist,1,True
+42,Travel_Frequently,Marketing,Female,4,Sales Executive,5,False
+18,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,1,False
+35,Travel_Rarely,Marketing,Male,3,Sales Executive,0,True
+36,Travel_Frequently,Life Sciences,Male,1,Laboratory Technician,4,True
+51,Travel_Rarely,Medical,Male,2,Manufacturing Director,5,False
+41,Travel_Rarely,Life Sciences,Male,4,Manager,1,False
+18,Travel_Rarely,Medical,Female,1,Sales Representative,1,False
+28,Travel_Rarely,Medical,Male,2,Healthcare Representative,0,True
+31,Travel_Rarely,Technical Degree,Male,2,Sales Executive,4,True
+39,Travel_Rarely,Medical,Male,3,Healthcare Representative,0,False
+36,Non-Travel,Life Sciences,Female,2,Laboratory Technician,7,False
+32,Travel_Rarely,Life Sciences,Male,2,Sales Executive,1,True
+38,Travel_Rarely,Life Sciences,Female,3,Research Director,3,True
+58,Non-Travel,Life Sciences,Male,2,Healthcare Representative,2,False
+31,Travel_Rarely,Technical Degree,Male,1,Research Scientist,0,True
+31,Travel_Rarely,Human Resources,Male,2,Human Resources,3,True
+45,Travel_Frequently,Life Sciences,Male,3,Laboratory Technician,1,False
+31,Travel_Rarely,Life Sciences,Male,1,Research Scientist,0,True
+33,Travel_Frequently,Life Sciences,Female,3,Manager,6,False
+39,Travel_Rarely,Medical,Male,4,Manager,1,False
+43,Travel_Frequently,Life Sciences,Female,1,Laboratory Technician,0,False
+49,Travel_Rarely,Technical Degree,Female,4,Healthcare Representative,7,False
+52,Travel_Rarely,Medical,Male,2,Research Scientist,2,False
+27,Travel_Rarely,Life Sciences,Female,1,Research Scientist,1,True
+32,Travel_Rarely,Technical Degree,Female,2,Sales Executive,1,True
+27,Travel_Rarely,Life Sciences,Male,2,Sales Executive,1,True
+31,Travel_Rarely,Marketing,Male,2,Sales Executive,4,True
+32,Travel_Rarely,Medical,Female,2,Research Scientist,7,False
+28,Travel_Rarely,Medical,Male,1,Research Scientist,5,False
+30,Travel_Rarely,Medical,Female,2,Research Scientist,1,True
+31,Travel_Frequently,Life Sciences,Female,3,Manufacturing Director,1,True
+39,Travel_Frequently,Medical,Male,5,Manager,1,False
+39,Travel_Rarely,Medical,Female,2,Sales Executive,4,False
+33,Travel_Frequently,Marketing,Male,2,Sales Executive,3,True
+47,Travel_Rarely,Life Sciences,Male,5,Research Director,4,False
+43,Travel_Frequently,Life Sciences,Female,2,Laboratory Technician,1,False
+27,Non-Travel,Marketing,Male,2,Sales Executive,0,True
+54,Travel_Frequently,Life Sciences,Female,2,Research Scientist,3,False
+43,Travel_Rarely,Life Sciences,Female,3,Healthcare Representative,8,False
+45,Travel_Rarely,Other,Male,2,Research Scientist,9,False
+40,Travel_Rarely,Medical,Male,2,Sales Executive,2,False
+29,Travel_Rarely,Other,Male,1,Laboratory Technician,1,True
+29,Travel_Rarely,Other,Male,1,Laboratory Technician,0,True
+30,Travel_Rarely,Marketing,Female,2,Sales Executive,1,True
+27,Travel_Rarely,Marketing,Female,2,Sales Executive,1,True
+37,Travel_Rarely,Medical,Male,2,Manufacturing Director,7,False
+38,Travel_Rarely,Life Sciences,Male,3,Research Director,0,True
+31,Travel_Rarely,Medical,Female,3,Manufacturing Director,1,True
+29,Travel_Rarely,Marketing,Female,2,Sales Executive,1,True
+35,Travel_Rarely,Technical Degree,Male,3,Manufacturing Director,0,True
+23,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,True
+41,Travel_Rarely,Medical,Male,2,Manufacturing Director,6,False
+47,Travel_Frequently,Medical,Male,2,Sales Representative,3,False
+42,Travel_Rarely,Life Sciences,Female,4,Research Director,2,False
+29,Non-Travel,Life Sciences,Male,2,Sales Executive,1,True
+42,Travel_Rarely,Technical Degree,Male,1,Human Resources,0,False
+32,Travel_Rarely,Medical,Female,1,Laboratory Technician,1,True
+48,Travel_Rarely,Medical,Female,3,Manager,3,False
+37,Travel_Rarely,Medical,Male,2,Research Scientist,4,True
+30,Non-Travel,Technical Degree,Female,2,Sales Executive,7,False
+26,Travel_Rarely,Life Sciences,Male,2,Sales Executive,1,True
+42,Travel_Rarely,Other,Male,2,Healthcare Representative,3,False
+21,Travel_Frequently,Technical Degree,Female,1,Sales Representative,1,True
+36,Non-Travel,Medical,Female,2,Sales Executive,4,True
+36,Travel_Frequently,Medical,Male,3,Sales Executive,4,True
+57,Travel_Rarely,Medical,Male,2,Healthcare Representative,2,False
+40,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,3,False
+21,Non-Travel,Medical,Male,1,Sales Representative,1,True
+33,Travel_Rarely,Marketing,Female,1,Sales Representative,1,True
+37,Travel_Rarely,Medical,Female,1,Laboratory Technician,6,False
+46,Non-Travel,Medical,Female,2,Manufacturing Director,2,False
+41,Travel_Frequently,Marketing,Male,2,Sales Executive,1,False
+50,Travel_Rarely,Technical Degree,Male,3,Healthcare Representative,6,False
+40,Travel_Rarely,Marketing,Male,2,Sales Executive,2,False
+31,Travel_Rarely,Life Sciences,Male,1,Research Scientist,0,True
+21,Travel_Rarely,Life Sciences,Female,1,Sales Representative,1,True
+29,Travel_Rarely,Life Sciences,Male,1,Research Scientist,9,False
+35,Travel_Rarely,Life Sciences,Male,2,Healthcare Representative,9,False
+27,Travel_Rarely,Medical,Male,1,Laboratory Technician,1,True
+28,Travel_Rarely,Life Sciences,Male,2,Sales Executive,1,True
+49,Travel_Rarely,Other,Male,3,Healthcare Representative,8,False
+51,Travel_Rarely,Life Sciences,Female,2,Sales Executive,4,False
+36,Travel_Rarely,Life Sciences,Female,1,Research Scientist,4,True
+34,Non-Travel,Marketing,Male,2,Sales Executive,8,False
+55,Travel_Rarely,Life Sciences,Female,4,Manager,2,False
+24,Travel_Rarely,Marketing,Female,2,Sales Executive,1,True
+30,Travel_Rarely,Technical Degree,Male,1,Sales Representative,1,True
+26,Travel_Frequently,Technical Degree,Male,1,Research Scientist,0,True
+22,Travel_Rarely,Medical,Female,1,Research Scientist,1,True
+36,Travel_Rarely,Medical,Male,3,Sales Executive,1,True
+30,Travel_Frequently,Technical Degree,Male,1,Research Scientist,9,False
+37,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,1,True
+40,Travel_Rarely,Marketing,Female,2,Sales Executive,7,False
+42,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,3,False
+37,Travel_Rarely,Life Sciences,Male,2,Manufacturing Director,2,True
+43,Travel_Rarely,Life Sciences,Male,4,Research Director,1,False
+40,Travel_Rarely,Medical,Female,2,Laboratory Technician,6,False
+54,Travel_Rarely,Medical,Male,5,Research Director,4,False
+34,Non-Travel,Marketing,Female,2,Sales Executive,9,False
+31,Travel_Rarely,Medical,Female,2,Manufacturing Director,1,True
+43,Travel_Frequently,Medical,Male,1,Laboratory Technician,7,False
+43,Travel_Rarely,Other,Female,2,Healthcare Representative,4,False
+25,Travel_Rarely,Life Sciences,Female,2,Sales Executive,1,True
+37,Non-Travel,Medical,Female,2,Research Scientist,3,True
+31,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,1,True
+39,Travel_Frequently,Life Sciences,Male,5,Manager,1,False
+56,Travel_Frequently,Life Sciences,Female,4,Sales Executive,9,False
+30,Travel_Rarely,Technical Degree,Female,2,Sales Executive,0,True
+41,Travel_Rarely,Marketing,Male,3,Sales Executive,1,False
+28,Travel_Rarely,Medical,Male,2,Laboratory Technician,1,True
+25,Travel_Rarely,Medical,Male,1,Laboratory Technician,5,False
+52,Travel_Rarely,Medical,Male,3,Manufacturing Director,2,False
+45,Travel_Rarely,Life Sciences,Male,1,Research Scientist,3,False
+52,Travel_Rarely,Life Sciences,Female,4,Manager,2,False
+42,Travel_Frequently,Life Sciences,Female,2,Research Scientist,2,False
+30,Travel_Rarely,Life Sciences,Female,2,Manufacturing Director,2,True
+60,Travel_Rarely,Life Sciences,Female,5,Manager,5,False
+46,Travel_Rarely,Medical,Female,2,Manufacturing Director,2,False
+42,Travel_Frequently,Technical Degree,Female,2,Healthcare Representative,0,False
+24,Travel_Rarely,Technical Degree,Female,1,Sales Representative,1,True
+34,Travel_Frequently,Marketing,Female,1,Sales Representative,0,True
+38,Travel_Frequently,Life Sciences,Male,1,Laboratory Technician,1,True
+40,Travel_Rarely,Life Sciences,Female,5,Manager,0,False
+26,Travel_Rarely,Life Sciences,Female,1,Research Scientist,1,True
+30,Non-Travel,Life Sciences,Male,1,Laboratory Technician,4,True
+29,Travel_Rarely,Medical,Male,3,Research Director,1,True
+29,Travel_Rarely,Technical Degree,Female,1,Research Scientist,5,False
+19,Travel_Rarely,Technical Degree,Male,1,Human Resources,1,False
+30,Non-Travel,Other,Female,3,Sales Executive,0,True
+57,Travel_Rarely,Marketing,Male,4,Manager,3,False
+50,Travel_Rarely,Life Sciences,Male,4,Manager,0,False
+30,Non-Travel,Medical,Female,1,Laboratory Technician,0,True
+60,Travel_Frequently,Marketing,Female,3,Sales Executive,4,False
+47,Travel_Rarely,Medical,Female,2,Manufacturing Director,5,False
+46,Travel_Rarely,Life Sciences,Male,4,Research Director,6,False
+35,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,0,True
+54,Travel_Rarely,Life Sciences,Female,2,Laboratory Technician,7,False
+34,Travel_Rarely,Life Sciences,Male,1,Research Scientist,3,True
+46,Travel_Rarely,Marketing,Female,3,Sales Executive,2,False
+31,Travel_Rarely,Life Sciences,Male,3,Manufacturing Director,1,True
+33,Travel_Rarely,Medical,Male,3,Manager,7,False
+33,Travel_Rarely,Medical,Male,1,Laboratory Technician,7,False
+30,Travel_Rarely,Marketing,Male,1,Sales Representative,0,True
+35,Travel_Rarely,Life Sciences,Male,3,Healthcare Representative,4,True
+31,Travel_Frequently,Life Sciences,Male,3,Healthcare Representative,3,True
+34,Travel_Frequently,Human Resources,Female,3,Human Resources,9,False
+42,Travel_Frequently,Other,Male,1,Laboratory Technician,4,False
+36,Non-Travel,Medical,Male,3,Sales Executive,1,True
+22,Travel_Frequently,Technical Degree,Male,1,Laboratory Technician,5,False
+48,Travel_Rarely,Marketing,Female,2,Sales Executive,2,False
+55,Travel_Rarely,Life Sciences,Female,4,Manager,3,False
+41,Non-Travel,Life Sciences,Male,2,Sales Executive,7,False
+35,Travel_Rarely,Marketing,Male,2,Sales Executive,9,False
+40,Travel_Rarely,Life Sciences,Female,4,Manufacturing Director,7,False
+39,Travel_Frequently,Life Sciences,Female,1,Laboratory Technician,1,False
+31,Travel_Rarely,Life Sciences,Male,2,Sales Executive,4,True
+42,Travel_Rarely,Medical,Male,3,Manufacturing Director,1,False
+45,Travel_Rarely,Other,Male,2,Sales Executive,0,False
+26,Travel_Frequently,Life Sciences,Female,1,Human Resources,0,True
+29,Travel_Rarely,Technical Degree,Male,2,Manufacturing Director,4,True
+33,Travel_Rarely,Medical,Female,4,Research Director,4,True
+31,Travel_Rarely,Life Sciences,Male,3,Manager,9,False
+18,Travel_Frequently,Marketing,Male,1,Sales Representative,1,False
+40,Non-Travel,Other,Male,3,Sales Executive,3,False
+41,Non-Travel,Other,Female,2,Healthcare Representative,2,False
+26,Travel_Rarely,Medical,Male,2,Sales Executive,5,False
+35,Travel_Rarely,Medical,Female,2,Sales Executive,1,True
+34,Travel_Rarely,Life Sciences,Male,2,Sales Executive,1,True
+26,Travel_Rarely,Technical Degree,Male,1,Laboratory Technician,1,True
+37,Travel_Rarely,Technical Degree,Female,3,Manufacturing Director,4,True
+46,Travel_Frequently,Medical,Female,3,Healthcare Representative,5,False
+41,Travel_Rarely,Life Sciences,Female,4,Manager,7,False
+37,Non-Travel,Medical,Male,3,Sales Executive,1,True
+52,Travel_Rarely,Technical Degree,Male,2,Research Scientist,3,False
+32,Non-Travel,Other,Male,2,Sales Executive,8,False
+24,Travel_Frequently,Medical,Male,1,Sales Representative,0,True
+38,Travel_Rarely,Medical,Female,2,Healthcare Representative,3,True
+37,Travel_Rarely,Life Sciences,Female,2,Manufacturing Director,6,False
+49,Travel_Rarely,Life Sciences,Male,5,Research Director,1,False
+24,Travel_Rarely,Medical,Male,1,Research Scientist,1,True
+26,Travel_Rarely,Marketing,Male,2,Sales Executive,1,True
+24,Travel_Rarely,Other,Male,1,Laboratory Technician,1,True
+50,Travel_Frequently,Medical,Male,5,Manager,1,False
+25,Travel_Rarely,Medical,Male,1,Sales Representative,1,True
+24,Travel_Frequently,Life Sciences,Female,1,Laboratory Technician,1,True
+30,Travel_Frequently,Life Sciences,Male,1,Sales Representative,1,True
+34,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,True
+31,Travel_Rarely,Medical,Male,2,Sales Executive,2,True
+35,Travel_Rarely,Other,Male,2,Laboratory Technician,4,True
+31,Travel_Rarely,Medical,Male,2,Sales Executive,4,True
+27,Travel_Rarely,Medical,Female,1,Research Scientist,0,True
+37,Travel_Rarely,Marketing,Male,2,Sales Executive,4,True
+20,Travel_Rarely,Life Sciences,Female,1,Research Scientist,1,False
+42,Travel_Rarely,Life Sciences,Female,2,Healthcare Representative,1,False
+43,Travel_Rarely,Other,Male,4,Research Director,4,False
+38,Travel_Rarely,Life Sciences,Female,1,Research Scientist,3,True
+43,Travel_Frequently,Medical,Male,2,Laboratory Technician,3,False
+48,Travel_Rarely,Life Sciences,Female,4,Manager,7,False
+44,Travel_Rarely,Life Sciences,Female,2,Human Resources,4,False
+34,Travel_Rarely,Technical Degree,Female,1,Sales Representative,1,True
+27,Travel_Rarely,Marketing,Male,1,Sales Representative,0,True
+21,Travel_Rarely,Technical Degree,Male,1,Sales Representative,1,True
+44,Travel_Rarely,Other,Male,5,Manager,4,False
+22,Travel_Rarely,Medical,Male,1,Research Scientist,0,True
+33,Travel_Rarely,Marketing,Male,2,Sales Executive,0,True
+32,Travel_Rarely,Life Sciences,Female,2,Research Scientist,1,True
+30,Travel_Frequently,Medical,Female,1,Research Scientist,1,True
+53,Travel_Rarely,Medical,Female,2,Sales Executive,7,False
+34,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,True
+45,Travel_Frequently,Life Sciences,Female,2,Sales Executive,2,False
+26,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,1,True
+37,Travel_Rarely,Other,Male,3,Manufacturing Director,1,True
+29,Travel_Rarely,Medical,Female,2,Sales Executive,1,True
+35,Travel_Rarely,Life Sciences,Male,2,Research Scientist,1,True
+33,Travel_Frequently,Life Sciences,Male,2,Healthcare Representative,3,True
+54,Travel_Rarely,Medical,Male,3,Human Resources,2,False
+36,Travel_Rarely,Medical,Male,2,Manufacturing Director,2,True
+27,Travel_Rarely,Medical,Male,1,Research Scientist,0,True
+20,Travel_Rarely,Medical,Male,1,Research Scientist,1,False
+33,Travel_Frequently,Life Sciences,Male,1,Research Scientist,1,True
+35,Non-Travel,Life Sciences,Male,1,Laboratory Technician,1,True
+23,Travel_Rarely,Medical,Male,1,Research Scientist,2,True
+25,Travel_Rarely,Life Sciences,Male,2,Sales Executive,0,True
+38,Travel_Rarely,Marketing,Female,2,Sales Executive,0,True
+29,Travel_Frequently,Life Sciences,Male,1,Research Scientist,1,True
+48,Travel_Rarely,Marketing,Male,2,Sales Executive,3,False
+27,Travel_Frequently,Medical,Female,2,Sales Executive,1,True
+37,Travel_Rarely,Life Sciences,Male,1,Research Scientist,3,True
+50,Travel_Rarely,Medical,Male,1,Laboratory Technician,1,False
+34,Travel_Rarely,Medical,Female,3,Healthcare Representative,1,True
+24,Travel_Rarely,Life Sciences,Female,2,Sales Executive,9,False
+39,Travel_Rarely,Technical Degree,Female,2,Healthcare Representative,1,False
+32,Travel_Rarely,Marketing,Male,2,Sales Executive,1,True
+50,Travel_Frequently,Technical Degree,Male,2,Sales Executive,3,False
+38,Travel_Rarely,Life Sciences,Female,2,Healthcare Representative,0,True
+27,Travel_Rarely,Life Sciences,Female,3,Manufacturing Director,1,True
+32,Travel_Rarely,Life Sciences,Female,3,Research Director,3,True
+47,Travel_Rarely,Marketing,Male,2,Sales Executive,2,False
+40,Travel_Frequently,Life Sciences,Male,3,Sales Executive,5,False
+53,Travel_Rarely,Life Sciences,Male,4,Research Director,3,False
+41,Travel_Rarely,Human Resources,Male,5,Manager,3,False
+60,Travel_Rarely,Marketing,Male,2,Sales Executive,8,False
+27,Travel_Frequently,Life Sciences,Male,3,Manufacturing Director,1,True
+41,Travel_Rarely,Human Resources,Male,5,Manager,1,False
+50,Travel_Rarely,Marketing,Male,1,Sales Representative,7,False
+28,Travel_Rarely,Life Sciences,Female,1,Research Scientist,7,False
+36,Non-Travel,Life Sciences,Female,3,Research Director,9,False
+38,Travel_Rarely,Life Sciences,Female,3,Manufacturing Director,4,True
+44,Non-Travel,Medical,Male,1,Laboratory Technician,2,False
+47,Travel_Frequently,Medical,Female,4,Sales Executive,9,False
+30,Travel_Rarely,Marketing,Male,2,Sales Executive,7,False
+29,Travel_Rarely,Life Sciences,Male,1,Sales Representative,1,True
+42,Travel_Frequently,Medical,Male,1,Research Scientist,6,False
+43,Travel_Frequently,Life Sciences,Male,2,Sales Executive,3,False
+34,Travel_Rarely,Medical,Female,2,Healthcare Representative,3,True
+23,Travel_Rarely,Medical,Male,1,Laboratory Technician,1,True
+39,Travel_Rarely,Human Resources,Female,2,Human Resources,9,False
+56,Travel_Rarely,Medical,Male,4,Healthcare Representative,7,False
+40,Travel_Rarely,Medical,Female,1,Research Scientist,0,False
+27,Travel_Rarely,Medical,Female,2,Healthcare Representative,8,False
+29,Travel_Rarely,Marketing,Male,1,Sales Representative,1,True
+53,Travel_Rarely,Life Sciences,Male,2,Laboratory Technician,2,False
+35,Non-Travel,Life Sciences,Female,2,Healthcare Representative,2,True
+32,Travel_Frequently,Life Sciences,Male,2,Laboratory Technician,1,True
+38,Travel_Rarely,Medical,Male,1,Research Scientist,6,False
+34,Travel_Rarely,Life Sciences,Female,2,Manufacturing Director,3,True
+52,Travel_Rarely,Marketing,Male,4,Manager,1,False
+33,Travel_Rarely,Other,Male,1,Research Scientist,1,True
+25,Travel_Rarely,Medical,Female,2,Sales Executive,1,True
+45,Travel_Rarely,Technical Degree,Male,2,Sales Representative,0,False
+23,Travel_Rarely,Medical,Male,1,Research Scientist,1,True
+47,Travel_Frequently,Life Sciences,Female,2,Sales Executive,4,False
+34,Travel_Rarely,Other,Male,2,Sales Executive,1,True
+55,Travel_Rarely,Medical,Male,5,Manager,5,False
+36,Non-Travel,Life Sciences,Male,3,Sales Executive,1,True
+52,Non-Travel,Medical,Male,1,Research Scientist,0,False
+26,Travel_Frequently,Life Sciences,Female,1,Laboratory Technician,3,True
+29,Travel_Rarely,Medical,Female,2,Healthcare Representative,4,True
+26,Travel_Rarely,Technical Degree,Male,2,Sales Executive,6,False
+34,Travel_Rarely,Life Sciences,Female,1,Research Scientist,2,True
+54,Travel_Rarely,Medical,Female,2,Manufacturing Director,9,False
+27,Travel_Frequently,Marketing,Male,2,Sales Executive,0,True
+37,Travel_Rarely,Life Sciences,Female,1,Research Scientist,0,True
+38,Travel_Frequently,Life Sciences,Female,2,Manufacturing Director,6,False
+34,Travel_Rarely,Medical,Female,1,Research Scientist,1,True
+35,Travel_Rarely,Life Sciences,Female,1,Sales Representative,1,True
+30,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,3,True
+40,Travel_Frequently,Medical,Female,2,Healthcare Representative,1,False
+34,Travel_Rarely,Life Sciences,Female,2,Sales Executive,5,False
+42,Travel_Frequently,Life Sciences,Male,5,Manager,1,False
+23,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,1,True
+24,Non-Travel,Life Sciences,Male,1,Laboratory Technician,1,True
+52,Travel_Rarely,Life Sciences,Female,2,Laboratory Technician,8,False
+50,Travel_Rarely,Medical,Male,4,Research Director,5,False
+29,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,1,True
+33,Travel_Rarely,Medical,Male,3,Research Director,0,True
+33,Travel_Rarely,Marketing,Female,2,Sales Executive,5,False
+47,Travel_Rarely,Other,Female,4,Manager,1,False
+36,Travel_Rarely,Other,Female,2,Manufacturing Director,0,True
+29,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,True
+58,Travel_Rarely,Life Sciences,Male,5,Research Director,7,False
+35,Travel_Rarely,Life Sciences,Female,1,Research Scientist,3,True
+42,Travel_Rarely,Life Sciences,Female,2,Manufacturing Director,9,False
+28,Travel_Rarely,Medical,Male,1,Research Scientist,6,False
+36,Travel_Rarely,Human Resources,Male,1,Human Resources,4,True
+32,Travel_Rarely,Life Sciences,Female,2,Manufacturing Director,1,True
+40,Travel_Frequently,Medical,Male,2,Laboratory Technician,6,False
+30,Travel_Rarely,Medical,Female,2,Manufacturing Director,5,False
+45,Travel_Rarely,Life Sciences,Female,1,Research Scientist,1,False
+42,Travel_Rarely,Life Sciences,Male,2,Manufacturing Director,1,False
+38,Travel_Frequently,Life Sciences,Male,2,Healthcare Representative,2,True
+34,Travel_Frequently,Life Sciences,Female,1,Research Scientist,1,True
+49,Travel_Rarely,Marketing,Female,3,Sales Executive,1,False
+55,Travel_Rarely,Medical,Male,2,Sales Executive,4,False
+43,Travel_Rarely,Life Sciences,Male,4,Research Director,6,False
+27,Travel_Rarely,Technical Degree,Male,3,Research Director,1,True
+35,Travel_Rarely,Other,Male,3,Manufacturing Director,3,True
+28,Travel_Rarely,Marketing,Female,2,Sales Executive,1,True
+34,Travel_Rarely,Human Resources,Male,1,Human Resources,0,True
+26,Travel_Frequently,Medical,Female,1,Research Scientist,1,True
+27,Non-Travel,Medical,Male,1,Research Scientist,1,True
+51,Travel_Rarely,Marketing,Female,4,Manager,2,False
+44,Travel_Rarely,Medical,Male,2,Healthcare Representative,9,False
+25,Travel_Rarely,Medical,Male,1,Research Scientist,7,False
+33,Travel_Rarely,Medical,Male,2,Sales Executive,1,True
+35,Travel_Rarely,Medical,Female,1,Research Scientist,1,True
+36,Travel_Rarely,Life Sciences,Male,2,Sales Executive,1,True
+32,Travel_Rarely,Life Sciences,Male,2,Sales Executive,2,True
+30,Travel_Frequently,Life Sciences,Male,1,Research Scientist,9,False
+53,Travel_Rarely,Marketing,Female,3,Sales Executive,7,False
+45,Travel_Rarely,Marketing,Male,3,Sales Executive,4,False
+32,Travel_Rarely,Medical,Female,2,Research Scientist,5,False
+52,Travel_Frequently,Medical,Female,4,Manufacturing Director,3,False
+37,Travel_Rarely,Marketing,Male,2,Sales Executive,4,True
+28,Travel_Rarely,Medical,Male,1,Human Resources,1,True
+22,Travel_Rarely,Life Sciences,Male,2,Manufacturing Director,6,False
+44,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,2,False
+42,Travel_Frequently,Medical,Male,1,Research Scientist,5,False
+36,Travel_Rarely,Life Sciences,Male,1,Human Resources,0,True
+25,Travel_Rarely,Other,Male,2,Sales Executive,1,True
+35,Travel_Rarely,Life Sciences,Female,3,Manufacturing Director,1,True
+35,Travel_Frequently,Life Sciences,Female,1,Research Scientist,1,True
+32,Non-Travel,Life Sciences,Male,1,Laboratory Technician,0,True
+25,Travel_Rarely,Marketing,Male,2,Sales Executive,1,True
+49,Travel_Rarely,Technical Degree,Female,1,Research Scientist,2,False
+24,Non-Travel,Life Sciences,Male,1,Laboratory Technician,0,True
+32,Travel_Frequently,Life Sciences,Male,2,Sales Executive,1,True
+38,Travel_Rarely,Marketing,Male,1,Sales Representative,0,True
+42,Travel_Rarely,Life Sciences,Female,2,Laboratory Technician,2,False
+31,Travel_Rarely,Life Sciences,Male,1,Research Scientist,3,True
+29,Travel_Rarely,Medical,Female,1,Sales Representative,6,False
+53,Travel_Rarely,Marketing,Male,4,Sales Executive,5,False
+35,Travel_Rarely,Technical Degree,Male,3,Manufacturing Director,3,True
+37,Travel_Frequently,Medical,Female,1,Sales Representative,5,False
+53,Travel_Rarely,Life Sciences,Female,4,Research Director,6,False
+43,Travel_Frequently,Life Sciences,Female,2,Healthcare Representative,4,False
+47,Travel_Rarely,Marketing,Female,2,Sales Executive,0,False
+37,Non-Travel,Medical,Male,3,Sales Executive,1,True
+50,Non-Travel,Life Sciences,Male,4,Manager,1,False
+39,Travel_Rarely,Life Sciences,Female,2,Human Resources,8,False
+33,Travel_Rarely,Human Resources,Male,1,Human Resources,3,True
+32,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,1,True
+29,Travel_Rarely,Medical,Female,1,Laboratory Technician,6,False
+44,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,False
+28,Travel_Rarely,Medical,Male,2,Sales Executive,1,True
+58,Travel_Frequently,Life Sciences,Male,1,Laboratory Technician,9,False
+43,Travel_Rarely,Life Sciences,Female,2,Manufacturing Director,4,False
+20,Travel_Rarely,Medical,Female,1,Sales Representative,1,False
+21,Travel_Rarely,Other,Female,1,Research Scientist,1,True
+36,Travel_Rarely,Life Sciences,Male,2,Healthcare Representative,0,True
+47,Travel_Rarely,Life Sciences,Female,1,Sales Representative,1,False
+22,Travel_Rarely,Life Sciences,Female,2,Manufacturing Director,0,True
+41,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,4,False
+28,Travel_Rarely,Medical,Female,1,Research Scientist,5,False
+39,Travel_Rarely,Medical,Male,1,Laboratory Technician,7,False
+27,Travel_Rarely,Life Sciences,Female,1,Research Scientist,1,True
+34,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,1,True
+42,Travel_Rarely,Medical,Female,2,Sales Executive,7,False
+33,Travel_Rarely,Other,Male,1,Research Scientist,3,True
+58,Travel_Rarely,Technical Degree,Female,3,Healthcare Representative,2,False
+31,Travel_Rarely,Life Sciences,Male,1,Sales Representative,3,True
+35,Travel_Rarely,Life Sciences,Female,2,Healthcare Representative,1,True
+49,Travel_Rarely,Other,Female,3,Laboratory Technician,4,False
+48,Travel_Rarely,Medical,Male,1,Research Scientist,4,False
+31,Non-Travel,Marketing,Female,2,Sales Executive,1,True
+36,Travel_Rarely,Other,Male,1,Research Scientist,2,True
+38,Travel_Rarely,Technical Degree,Female,3,Research Director,1,True
+32,Non-Travel,Life Sciences,Female,1,Laboratory Technician,6,False
+25,Travel_Rarely,Marketing,Male,1,Sales Representative,1,True
+40,Travel_Rarely,Marketing,Male,3,Sales Executive,2,False
+26,Travel_Frequently,Medical,Male,2,Sales Executive,1,True
+41,Travel_Rarely,Medical,Male,1,Laboratory Technician,2,False
+36,Travel_Rarely,Medical,Male,1,Laboratory Technician,4,True
+19,Travel_Rarely,Other,Male,1,Sales Representative,1,False
+20,Travel_Rarely,Technical Degree,Male,1,Laboratory Technician,1,False
+31,Travel_Rarely,Medical,Female,2,Healthcare Representative,0,True
+40,Travel_Frequently,Medical,Male,1,Research Scientist,8,False
+32,Travel_Rarely,Medical,Female,2,Manufacturing Director,1,True
+36,Travel_Rarely,Life Sciences,Male,3,Sales Executive,1,True
+33,Travel_Rarely,Life Sciences,Female,2,Healthcare Representative,0,True
+37,Travel_Rarely,Life Sciences,Male,3,Sales Executive,5,False
+45,Non-Travel,Life Sciences,Male,2,Laboratory Technician,1,False
+29,Travel_Frequently,Technical Degree,Female,1,Sales Representative,1,True
+35,Travel_Rarely,Medical,Female,2,Sales Executive,1,True
+52,Travel_Rarely,Life Sciences,Male,4,Manager,2,False
+58,Travel_Rarely,Technical Degree,Male,1,Research Scientist,4,False
+53,Travel_Rarely,Medical,Male,4,Manager,6,False
+30,Travel_Rarely,Other,Male,3,Sales Executive,5,False
+38,Non-Travel,Technical Degree,Female,2,Sales Executive,1,True
+35,Travel_Rarely,Life Sciences,Male,3,Sales Executive,6,False
+39,Travel_Rarely,Life Sciences,Male,3,Sales Executive,0,False
+40,Non-Travel,Life Sciences,Female,4,Sales Executive,4,False
+47,Travel_Frequently,Medical,Male,2,Manufacturing Director,1,False
+36,Non-Travel,Technical Degree,Male,2,Sales Executive,4,True
+31,Non-Travel,Medical,Male,1,Research Scientist,0,True
+33,Non-Travel,Life Sciences,Male,4,Manager,1,True
+29,Travel_Rarely,Life Sciences,Female,1,Research Scientist,6,False
+33,Travel_Rarely,Life Sciences,Female,1,Research Scientist,3,True
+45,Travel_Rarely,Medical,Female,1,Laboratory Technician,3,False
+50,Travel_Rarely,Medical,Male,4,Research Director,9,False
+33,Travel_Frequently,Other,Female,2,Healthcare Representative,1,True
+41,Travel_Frequently,Medical,Male,5,Research Director,2,False
+27,Travel_Rarely,Technical Degree,Female,1,Laboratory Technician,9,False
+45,Non-Travel,Life Sciences,Male,2,Laboratory Technician,1,False
+47,Travel_Rarely,Life Sciences,Female,2,Sales Executive,1,False
+30,Travel_Rarely,Life Sciences,Female,1,Research Scientist,4,True
+50,Travel_Rarely,Life Sciences,Male,4,Manufacturing Director,3,False
+38,Travel_Frequently,Medical,Male,1,Research Scientist,0,True
+46,Travel_Rarely,Medical,Male,3,Manufacturing Director,6,False
+24,Travel_Rarely,Medical,Female,2,Manufacturing Director,1,True
+35,Travel_Rarely,Other,Male,1,Laboratory Technician,1,True
+31,Travel_Frequently,Life Sciences,Female,2,Manufacturing Director,1,True
+18,Non-Travel,Life Sciences,Male,1,Research Scientist,1,False
+54,Travel_Rarely,Technical Degree,Female,3,Manufacturing Director,8,False
+35,Travel_Rarely,Medical,Female,3,Healthcare Representative,1,True
+30,Travel_Rarely,Life Sciences,Female,3,Research Director,0,True
+20,Travel_Rarely,Medical,Female,1,Research Scientist,1,False
+30,Travel_Frequently,Medical,Female,1,Laboratory Technician,0,True
+26,Travel_Rarely,Medical,Male,2,Manufacturing Director,1,True
+22,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,1,True
+48,Travel_Rarely,Life Sciences,Male,2,Healthcare Representative,2,False
+48,Travel_Rarely,Life Sciences,Male,3,Healthcare Representative,7,False
+41,Travel_Rarely,Medical,Female,2,Manufacturing Director,6,False
+39,Travel_Rarely,Life Sciences,Female,4,Manufacturing Director,1,False
+27,Travel_Rarely,Life Sciences,Female,2,Manufacturing Director,0,True
+35,Travel_Rarely,Other,Male,1,Laboratory Technician,1,True
+42,Travel_Rarely,Marketing,Male,5,Manager,6,False
+50,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,4,False
+59,Travel_Rarely,Life Sciences,Female,4,Manufacturing Director,3,False
+37,Travel_Rarely,Medical,Female,2,Healthcare Representative,5,False
+55,Travel_Frequently,Medical,Male,2,Healthcare Representative,3,False
+41,Non-Travel,Life Sciences,Female,5,Research Director,1,False
+38,Travel_Rarely,Life Sciences,Male,2,Sales Executive,8,False
+26,Non-Travel,Medical,Male,2,Sales Executive,8,False
+52,Travel_Rarely,Marketing,Female,5,Manager,1,False
+44,Travel_Rarely,Medical,Female,4,Sales Executive,3,False
+50,Non-Travel,Life Sciences,Female,2,Sales Executive,0,False
+36,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,1,True
+39,Travel_Frequently,Medical,Female,3,Manufacturing Director,1,False
+33,Non-Travel,Life Sciences,Female,1,Sales Representative,0,True
+45,Travel_Rarely,Life Sciences,Female,4,Manager,3,False
+32,Non-Travel,Medical,Female,1,Laboratory Technician,9,False
+34,Travel_Rarely,Marketing,Male,2,Sales Executive,0,True
+59,Travel_Rarely,Technical Degree,Male,3,Manager,3,False
+45,Travel_Rarely,Medical,Male,1,Human Resources,1,False
+53,Travel_Frequently,Marketing,Female,3,Sales Executive,2,False
+36,Travel_Rarely,Other,Male,2,Laboratory Technician,7,False
+26,Travel_Frequently,Life Sciences,Male,1,Research Scientist,6,False
+34,Travel_Rarely,Life Sciences,Female,1,Sales Representative,1,True
+28,Travel_Rarely,Medical,Male,1,Sales Representative,1,True
+38,Travel_Frequently,Other,Male,1,Research Scientist,3,True
+50,Travel_Rarely,Medical,Male,5,Research Director,2,False
+37,Travel_Rarely,Other,Female,2,Healthcare Representative,3,True
+40,Travel_Rarely,Marketing,Male,2,Sales Executive,1,False
+26,Travel_Frequently,Medical,Female,1,Research Scientist,1,True
+46,Travel_Rarely,Medical,Male,5,Research Director,9,False
+54,Travel_Rarely,Life Sciences,Female,3,Sales Executive,6,False
+56,Travel_Frequently,Medical,Female,1,Research Scientist,2,False
+36,Travel_Rarely,Medical,Female,3,Manufacturing Director,0,True
+55,Non-Travel,Medical,Male,4,Manager,7,False
+43,Travel_Rarely,Medical,Male,3,Sales Executive,5,False
+20,Travel_Frequently,Marketing,Female,1,Sales Representative,1,False
+21,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,1,True
+46,Travel_Rarely,Life Sciences,Female,2,Research Scientist,8,False
+51,Travel_Rarely,Life Sciences,Male,1,Research Scientist,9,False
+28,Non-Travel,Technical Degree,Male,3,Healthcare Representative,1,True
+26,Travel_Rarely,Medical,Male,1,Laboratory Technician,1,True
+30,Travel_Rarely,Other,Male,2,Manufacturing Director,0,True
+41,Travel_Rarely,Technical Degree,Female,1,Research Scientist,1,False
+38,Travel_Rarely,Life Sciences,Female,3,Healthcare Representative,0,True
+40,Travel_Rarely,Technical Degree,Male,3,Healthcare Representative,4,False
+27,Non-Travel,Life Sciences,Male,1,Laboratory Technician,1,True
+55,Travel_Frequently,Life Sciences,Male,3,Manufacturing Director,3,False
+28,Travel_Rarely,Other,Female,2,Research Scientist,3,True
+44,Travel_Rarely,Medical,Male,3,Human Resources,9,False
+33,Travel_Rarely,Life Sciences,Male,3,Healthcare Representative,4,True
+35,Travel_Rarely,Technical Degree,Male,3,Sales Executive,0,True
+33,Travel_Frequently,Medical,Female,2,Research Scientist,1,True
+28,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,1,True
+34,Travel_Frequently,Life Sciences,Male,2,Healthcare Representative,0,True
+37,Travel_Rarely,Life Sciences,Female,2,Sales Executive,2,True
+25,Travel_Rarely,Technical Degree,Male,1,Laboratory Technician,1,True
+26,Travel_Rarely,Medical,Male,1,Laboratory Technician,1,True
+33,Travel_Rarely,Medical,Male,1,Research Scientist,4,True
+42,Travel_Rarely,Medical,Male,4,Manager,0,False
+28,Travel_Frequently,Medical,Male,1,Laboratory Technician,1,True
+50,Travel_Frequently,Other,Male,2,Sales Executive,3,False
+33,Travel_Frequently,Life Sciences,Female,2,Sales Executive,0,True
+34,Non-Travel,Life Sciences,Male,1,Research Scientist,3,True
+48,Non-Travel,Medical,Male,4,Manager,2,False
+45,Non-Travel,Life Sciences,Female,2,Sales Executive,1,False
+52,Travel_Rarely,Life Sciences,Male,3,Healthcare Representative,7,False
+38,Travel_Rarely,Marketing,Male,3,Sales Executive,0,True
+29,Travel_Rarely,Life Sciences,Female,1,Research Scientist,4,True
+28,Travel_Rarely,Medical,Female,3,Manufacturing Director,0,True
+46,Travel_Rarely,Marketing,Male,4,Manager,3,False
+38,Travel_Rarely,Marketing,Male,3,Sales Executive,7,False
+43,Travel_Frequently,Life Sciences,Female,3,Manufacturing Director,8,False
+39,Travel_Frequently,Life Sciences,Male,4,Healthcare Representative,7,False
+40,Travel_Rarely,Medical,Male,5,Research Director,1,False
+21,Travel_Rarely,Technical Degree,Female,1,Research Scientist,1,True
+39,Non-Travel,Life Sciences,Male,2,Laboratory Technician,9,False
+36,Non-Travel,Life Sciences,Male,2,Manufacturing Director,2,True
+31,Travel_Frequently,Life Sciences,Male,1,Sales Representative,0,True
+28,Travel_Rarely,Life Sciences,Male,1,Research Scientist,0,True
+35,Travel_Frequently,Marketing,Male,2,Sales Executive,1,True
+49,Travel_Rarely,Technical Degree,Male,4,Sales Executive,6,False
+34,Travel_Frequently,Life Sciences,Male,2,Manufacturing Director,2,True
+29,Travel_Frequently,Life Sciences,Female,1,Research Scientist,0,True
+42,Travel_Rarely,Medical,Male,2,Laboratory Technician,4,False
+29,Travel_Rarely,Medical,Male,2,Manufacturing Director,1,True
+38,Travel_Rarely,Human Resources,Male,1,Human Resources,1,True
+28,Travel_Frequently,Life Sciences,Male,1,Research Scientist,1,True
+18,Non-Travel,Medical,Male,1,Laboratory Technician,1,False
+33,Travel_Rarely,Marketing,Female,2,Sales Executive,0,True
+41,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,3,False
+31,Travel_Frequently,Medical,Male,1,Laboratory Technician,1,True
+37,Travel_Rarely,Medical,Female,2,Healthcare Representative,7,False
+27,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,True
+34,Travel_Rarely,Life Sciences,Female,2,Sales Executive,1,True
+35,Travel_Rarely,Technical Degree,Male,1,Human Resources,1,True
+29,Travel_Rarely,Life Sciences,Female,3,Sales Executive,1,True
+40,Travel_Frequently,Medical,Female,3,Research Director,9,False
+42,Travel_Frequently,Life Sciences,Male,4,Sales Executive,0,False
+42,Travel_Rarely,Marketing,Male,2,Sales Executive,7,False
+35,Travel_Rarely,Medical,Male,1,Laboratory Technician,6,False
+24,Travel_Rarely,Medical,Male,1,Laboratory Technician,8,False
+28,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,1,True
+26,Travel_Rarely,Medical,Male,1,Laboratory Technician,1,True
+30,Travel_Rarely,Marketing,Male,2,Sales Executive,1,True
+40,Travel_Frequently,Medical,Female,2,Research Scientist,3,False
+35,Travel_Rarely,Life Sciences,Male,3,Manufacturing Director,2,True
+34,Travel_Frequently,Medical,Male,2,Healthcare Representative,0,True
+35,Travel_Frequently,Other,Male,1,Laboratory Technician,1,True
+43,Travel_Rarely,Marketing,Female,2,Sales Executive,8,False
+32,Non-Travel,Life Sciences,Female,1,Sales Representative,1,True
+56,Travel_Rarely,Technical Degree,Female,5,Manager,4,False
+29,Travel_Rarely,Medical,Female,1,Laboratory Technician,1,True
+19,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,False
+45,Travel_Rarely,Medical,Female,1,Research Scientist,4,False
+37,Travel_Rarely,Life Sciences,Female,2,Manufacturing Director,1,True
+20,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,1,False
+44,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,False
+53,Travel_Rarely,Medical,Female,5,Manager,3,False
+29,Travel_Rarely,Life Sciences,Female,1,Research Scientist,0,True
+22,Travel_Frequently,Life Sciences,Male,1,Research Scientist,0,True
+46,Travel_Rarely,Marketing,Female,4,Manager,8,False
+44,Non-Travel,Life Sciences,Male,1,Research Scientist,2,False
+33,Travel_Rarely,Human Resources,Male,1,Human Resources,1,True
+41,Non-Travel,Life Sciences,Male,1,Research Scientist,6,False
+30,Travel_Rarely,Life Sciences,Male,2,Sales Executive,8,False
+40,Travel_Frequently,Medical,Male,2,Sales Executive,5,False
+50,Travel_Frequently,Medical,Female,4,Manager,2,False
+28,Travel_Rarely,Medical,Male,1,Laboratory Technician,1,True
+46,Travel_Rarely,Life Sciences,Male,5,Research Director,5,False
+35,Travel_Rarely,Life Sciences,Male,2,Sales Executive,3,True
+24,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,1,True
+33,Travel_Frequently,Medical,Female,2,Sales Executive,1,True
+36,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,1,True
+30,Travel_Rarely,Life Sciences,Male,2,Laboratory Technician,1,True
+44,Travel_Rarely,Other,Male,2,Research Scientist,1,False
+20,Travel_Rarely,Marketing,Male,1,Sales Representative,1,False
+46,Travel_Rarely,Technical Degree,Male,2,Manufacturing Director,2,False
+42,Non-Travel,Medical,Male,2,Human Resources,7,False
+60,Travel_Rarely,Marketing,Male,2,Sales Executive,0,False
+32,Travel_Frequently,Other,Female,1,Laboratory Technician,1,True
+32,Travel_Frequently,Life Sciences,Female,2,Research Scientist,4,True
+36,Travel_Rarely,Technical Degree,Female,3,Manufacturing Director,2,True
+33,Travel_Rarely,Medical,Male,1,Research Scientist,0,True
+40,Travel_Rarely,Technical Degree,Female,2,Sales Executive,7,False
+25,Travel_Rarely,Life Sciences,Male,2,Sales Executive,0,True
+30,Travel_Rarely,Medical,Male,1,Research Scientist,0,True
+42,Travel_Frequently,Medical,Female,3,Research Director,3,False
+35,Non-Travel,Marketing,Female,3,Sales Executive,4,True
+27,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,True
+54,Travel_Frequently,Life Sciences,Female,3,Manufacturing Director,7,False
+44,Travel_Rarely,Life Sciences,Female,1,Research Scientist,1,False
+19,Non-Travel,Medical,Female,1,Research Scientist,1,False
+29,Travel_Rarely,Life Sciences,Female,1,Research Scientist,1,True
+54,Travel_Rarely,Life Sciences,Male,4,Research Director,3,False
+31,Travel_Rarely,Medical,Male,2,Healthcare Representative,1,True
+31,Travel_Rarely,Medical,Female,2,Healthcare Representative,1,True
+59,Travel_Rarely,Life Sciences,Female,2,Sales Executive,5,False
+43,Travel_Rarely,Life Sciences,Male,5,Research Director,3,False
+49,Travel_Rarely,Medical,Male,5,Manager,2,False
+36,Travel_Frequently,Technical Degree,Male,1,Research Scientist,1,True
+48,Travel_Rarely,Technical Degree,Male,1,Laboratory Technician,5,False
+27,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,True
+29,Travel_Rarely,Life Sciences,Male,2,Healthcare Representative,1,True
+48,Travel_Rarely,Life Sciences,Male,5,Research Director,6,False
+29,Travel_Rarely,Life Sciences,Female,4,Research Director,3,True
+34,Travel_Rarely,Technical Degree,Female,1,Research Scientist,0,True
+44,Travel_Rarely,Marketing,Male,5,Manager,7,False
+33,Travel_Rarely,Marketing,Male,3,Sales Executive,0,True
+19,Travel_Rarely,Life Sciences,Female,1,Research Scientist,1,False
+23,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,True
+25,Travel_Frequently,Life Sciences,Male,1,Sales Representative,1,True
+26,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,True
+45,Travel_Rarely,Marketing,Female,5,Manager,2,False
+55,Non-Travel,Medical,Male,4,Healthcare Representative,1,False
+21,Travel_Frequently,Life Sciences,Female,1,Laboratory Technician,1,True
+46,Travel_Rarely,Marketing,Female,5,Manager,2,False
+34,Travel_Rarely,Marketing,Female,2,Sales Executive,0,True
+51,Travel_Frequently,Life Sciences,Male,5,Manager,4,False
+59,Travel_Rarely,Medical,Male,3,Manufacturing Director,6,False
+34,Travel_Frequently,Medical,Female,2,Laboratory Technician,4,True
+28,Travel_Frequently,Medical,Male,1,Laboratory Technician,0,True
+44,Travel_Rarely,Life Sciences,Male,5,Manager,1,False
+34,Travel_Frequently,Life Sciences,Male,2,Human Resources,4,True
+35,Travel_Rarely,Life Sciences,Male,1,Research Scientist,0,True
+42,Travel_Rarely,Medical,Female,2,Research Scientist,6,False
+43,Travel_Rarely,Marketing,Female,3,Sales Executive,3,False
+36,Travel_Rarely,Life Sciences,Female,2,Manufacturing Director,9,False
+44,Travel_Rarely,Medical,Female,3,Healthcare Representative,1,False
+28,Travel_Frequently,Life Sciences,Male,1,Laboratory Technician,1,True
+51,Travel_Frequently,Medical,Female,1,Laboratory Technician,0,False
+30,Non-Travel,Medical,Female,2,Manufacturing Director,7,False
+29,Travel_Rarely,Technical Degree,Female,1,Laboratory Technician,3,True
+28,Travel_Rarely,Technical Degree,Male,1,Research Scientist,2,True
+25,Travel_Rarely,Medical,Female,1,Research Scientist,1,True
+32,Travel_Rarely,Medical,Male,2,Sales Executive,1,True
+45,Travel_Frequently,Medical,Female,5,Manager,3,False
+39,Travel_Rarely,Medical,Female,4,Manager,6,False
+58,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,False
+32,Travel_Rarely,Life Sciences,Male,2,Laboratory Technician,1,True
+39,Travel_Rarely,Medical,Male,1,Research Scientist,0,False
+30,Travel_Rarely,Technical Degree,Female,2,Laboratory Technician,0,True
+36,Travel_Rarely,Technical Degree,Female,3,Healthcare Representative,3,True
+46,Travel_Rarely,Life Sciences,Female,1,Human Resources,6,False
+28,Non-Travel,Life Sciences,Female,2,Laboratory Technician,0,True
+50,Travel_Rarely,Life Sciences,Female,4,Research Director,4,False
+40,Travel_Rarely,Marketing,Male,3,Sales Executive,2,False
+52,Travel_Rarely,Life Sciences,Male,3,Sales Executive,9,False
+30,Travel_Rarely,Medical,Female,3,Manager,1,True
+39,Travel_Rarely,Life Sciences,Male,2,Manufacturing Director,0,False
+31,Non-Travel,Life Sciences,Female,3,Sales Executive,1,True
+41,Non-Travel,Medical,Male,2,Sales Executive,1,False
+31,Travel_Frequently,Life Sciences,Female,1,Sales Representative,1,True
+44,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,4,False
+42,Non-Travel,Life Sciences,Male,4,Manager,0,False
+55,Travel_Rarely,Medical,Female,5,Manager,4,False
+56,Travel_Rarely,Life Sciences,Male,5,Manager,6,False
+40,Non-Travel,Life Sciences,Male,1,Research Scientist,9,False
+34,Travel_Rarely,Life Sciences,Male,3,Healthcare Representative,0,True
+40,Travel_Rarely,Life Sciences,Male,2,Research Scientist,1,False
+41,Travel_Frequently,Marketing,Female,2,Sales Executive,0,False
+35,Travel_Frequently,Life Sciences,Male,2,Research Scientist,1,True
+51,Travel_Rarely,Life Sciences,Male,4,Manager,1,False
+38,Travel_Rarely,Life Sciences,Female,2,Sales Executive,3,True
+34,Travel_Rarely,Medical,Female,2,Sales Executive,1,True
+25,Travel_Rarely,Medical,Male,1,Laboratory Technician,3,True
+58,Travel_Rarely,Medical,Female,3,Manufacturing Director,7,False
+40,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,3,False
+36,Travel_Frequently,Marketing,Female,2,Sales Executive,2,True
+48,Travel_Rarely,Life Sciences,Male,3,Manufacturing Director,1,False
+27,Travel_Rarely,Medical,Female,1,Sales Representative,8,False
+51,Travel_Rarely,Technical Degree,Female,4,Manufacturing Director,3,False
+18,Non-Travel,Life Sciences,Female,1,Laboratory Technician,1,False
+35,Travel_Rarely,Medical,Female,2,Laboratory Technician,0,True
+27,Travel_Frequently,Life Sciences,Male,2,Sales Executive,3,True
+55,Travel_Rarely,Marketing,Male,4,Sales Executive,6,False
+56,Travel_Rarely,Life Sciences,Male,4,Manufacturing Director,4,False
+34,Non-Travel,Technical Degree,Female,1,Research Scientist,1,True
+40,Travel_Rarely,Medical,Female,2,Healthcare Representative,5,False
+34,Travel_Rarely,Medical,Male,2,Laboratory Technician,4,True
+31,Travel_Frequently,Life Sciences,Female,1,Sales Representative,7,False
+35,Travel_Frequently,Marketing,Female,2,Sales Executive,0,True
+38,Travel_Frequently,Life Sciences,Male,1,Research Scientist,1,True
+34,Travel_Rarely,Technical Degree,Female,2,Healthcare Representative,1,True
+28,Travel_Rarely,Life Sciences,Male,2,Sales Executive,1,True
+31,Travel_Rarely,Medical,Male,2,Manufacturing Director,1,True
+39,Travel_Rarely,Life Sciences,Male,2,Sales Executive,3,False
+51,Travel_Frequently,Marketing,Male,3,Sales Executive,2,False
+41,Travel_Frequently,Life Sciences,Female,2,Research Scientist,3,False
+37,Travel_Rarely,Life Sciences,Male,1,Research Scientist,7,False
+33,Travel_Frequently,Life Sciences,Male,2,Sales Executive,6,False
+32,Travel_Rarely,Marketing,Male,2,Sales Executive,0,True
+39,Non-Travel,Life Sciences,Male,3,Healthcare Representative,3,False
+25,Travel_Rarely,Life Sciences,Male,2,Sales Executive,2,True
+52,Travel_Frequently,Medical,Female,4,Manufacturing Director,2,False
+43,Travel_Rarely,Medical,Female,2,Research Scientist,1,False
+27,Travel_Rarely,Marketing,Female,2,Sales Executive,1,True
+27,Travel_Rarely,Life Sciences,Female,1,Research Scientist,1,True
+26,Travel_Rarely,Medical,Male,1,Research Scientist,0,True
+42,Travel_Rarely,Human Resources,Female,4,Manager,0,False
+52,Travel_Rarely,Other,Female,1,Laboratory Technician,9,False
+37,Travel_Rarely,Medical,Female,1,Laboratory Technician,4,True
+35,Travel_Frequently,Life Sciences,Male,3,Manufacturing Director,2,True
+25,Travel_Rarely,Technical Degree,Male,1,Laboratory Technician,4,True
+26,Travel_Rarely,Other,Male,1,Laboratory Technician,0,True
+29,Travel_Rarely,Other,Male,3,Human Resources,1,True
+49,Travel_Frequently,Life Sciences,Male,2,Laboratory Technician,3,False
+29,Travel_Frequently,Other,Female,3,Healthcare Representative,0,True
+54,Travel_Rarely,Medical,Female,4,Research Director,6,False
+58,Travel_Rarely,Medical,Female,5,Research Director,3,False
+55,Travel_Rarely,Medical,Male,4,Research Director,2,False
+36,Travel_Rarely,Marketing,Female,2,Sales Executive,3,True
+31,Travel_Frequently,Life Sciences,Female,1,Sales Representative,1,True
+30,Travel_Rarely,Marketing,Female,2,Sales Executive,7,False
+31,Travel_Rarely,Life Sciences,Female,4,Research Director,3,True
+34,Travel_Frequently,Other,Male,1,Research Scientist,5,False
+31,Travel_Rarely,Life Sciences,Female,1,Research Scientist,1,True
+27,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,0,True
+36,Travel_Rarely,Life Sciences,Male,2,Laboratory Technician,1,True
+36,Travel_Rarely,Marketing,Female,2,Sales Executive,4,True
+47,Travel_Rarely,Technical Degree,Male,1,Research Scientist,7,False
+25,Travel_Rarely,Life Sciences,Male,1,Sales Representative,3,True
+37,Non-Travel,Technical Degree,Male,1,Laboratory Technician,0,True
+56,Travel_Rarely,Life Sciences,Female,1,Research Scientist,2,False
+47,Travel_Rarely,Medical,Female,4,Research Director,3,False
+24,Travel_Rarely,Medical,Female,2,Sales Executive,1,True
+32,Travel_Rarely,Marketing,Male,2,Sales Executive,4,True
+34,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,5,False
+41,Travel_Rarely,Medical,Male,1,Research Scientist,2,False
+40,Non-Travel,Other,Male,2,Laboratory Technician,3,False
+31,Travel_Rarely,Life Sciences,Male,3,Sales Executive,1,True
+46,Travel_Rarely,Marketing,Male,3,Sales Executive,4,False
+39,Non-Travel,Life Sciences,Female,1,Laboratory Technician,2,False
+31,Travel_Frequently,Life Sciences,Female,3,Manufacturing Director,1,True
+45,Travel_Rarely,Medical,Male,3,Healthcare Representative,2,False
+31,Travel_Rarely,Medical,Female,1,Human Resources,9,False
+31,Travel_Frequently,Life Sciences,Male,1,Laboratory Technician,6,False
+45,Travel_Rarely,Technical Degree,Male,3,Manufacturing Director,4,False
+48,Travel_Rarely,Marketing,Male,2,Sales Executive,4,False
+34,Travel_Rarely,Technical Degree,Female,1,Human Resources,1,True
+40,Non-Travel,Medical,Male,3,Research Director,2,False
+28,Travel_Rarely,Medical,Male,2,Sales Executive,0,True
+44,Non-Travel,Life Sciences,Male,1,Laboratory Technician,3,False
+53,Travel_Rarely,Medical,Male,4,Research Director,4,False
+49,Travel_Rarely,Technical Degree,Male,2,Healthcare Representative,2,False
+40,Travel_Rarely,Medical,Male,1,Research Scientist,2,False
+44,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,False
+33,Travel_Frequently,Medical,Male,2,Sales Executive,0,True
+34,Travel_Rarely,Other,Male,2,Sales Executive,3,True
+30,Travel_Rarely,Life Sciences,Male,2,Sales Executive,8,False
+42,Travel_Frequently,Medical,Female,1,Laboratory Technician,1,False
+44,Travel_Frequently,Marketing,Female,2,Sales Executive,7,False
+30,Non-Travel,Technical Degree,Male,1,Research Scientist,1,True
+57,Travel_Rarely,Life Sciences,Male,2,Research Scientist,0,False
+49,Travel_Rarely,Life Sciences,Male,3,Healthcare Representative,3,False
+34,Travel_Frequently,Medical,Male,4,Research Director,7,False
+28,Travel_Frequently,Technical Degree,Male,1,Sales Representative,3,True
+29,Travel_Frequently,Technical Degree,Female,2,Sales Executive,5,False
+34,Travel_Rarely,Medical,Female,2,Sales Executive,0,True
+35,Travel_Rarely,Life Sciences,Male,1,Sales Representative,1,True
+24,Travel_Frequently,Medical,Male,1,Laboratory Technician,2,True
+24,Non-Travel,Life Sciences,Female,1,Sales Representative,1,True
+44,Travel_Frequently,Medical,Male,3,Manufacturing Director,5,False
+29,Travel_Rarely,Life Sciences,Male,2,Sales Executive,1,True
+30,Travel_Rarely,Life Sciences,Male,1,Human Resources,0,True
+55,Travel_Rarely,Life Sciences,Male,2,Healthcare Representative,0,False
+33,Travel_Rarely,Medical,Female,1,Laboratory Technician,8,False
+47,Travel_Rarely,Medical,Female,2,Sales Executive,3,False
+28,Travel_Frequently,Medical,Male,1,Laboratory Technician,7,False
+28,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,True
+28,Travel_Frequently,Life Sciences,Male,2,Sales Executive,0,True
+49,Travel_Rarely,Medical,Female,2,Laboratory Technician,4,False
+29,Travel_Frequently,Life Sciences,Female,1,Laboratory Technician,0,True
+28,Travel_Rarely,Life Sciences,Male,2,Manufacturing Director,1,True
+33,Travel_Rarely,Life Sciences,Male,2,Healthcare Representative,2,True
+32,Travel_Rarely,Medical,Male,3,Manager,2,True
+54,Travel_Frequently,Medical,Female,4,Manager,3,False
+29,Travel_Rarely,Technical Degree,Male,1,Research Scientist,6,False
+44,Travel_Rarely,Life Sciences,Male,4,Research Director,3,False
+39,Travel_Rarely,Life Sciences,Female,3,Manufacturing Director,4,False
+46,Travel_Rarely,Life Sciences,Female,4,Manager,8,False
+35,Travel_Rarely,Life Sciences,Female,3,Healthcare Representative,1,True
+23,Travel_Rarely,Life Sciences,Male,2,Laboratory Technician,0,True
+40,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,3,False
+34,Travel_Rarely,Technical Degree,Male,3,Sales Executive,1,True
+31,Travel_Frequently,Life Sciences,Female,1,Research Scientist,1,True
+50,Travel_Frequently,Medical,Male,4,Research Director,1,False
+34,Travel_Rarely,Technical Degree,Male,1,Sales Representative,0,True
+42,Travel_Rarely,Medical,Male,1,Laboratory Technician,4,False
+37,Travel_Rarely,Medical,Male,2,Research Scientist,1,True
+29,Travel_Rarely,Other,Female,2,Healthcare Representative,3,True
+33,Travel_Rarely,Life Sciences,Male,2,Manufacturing Director,1,True
+45,Travel_Rarely,Technical Degree,Male,1,Research Scientist,4,False
+42,Travel_Frequently,Life Sciences,Male,3,Healthcare Representative,2,False
+40,Travel_Rarely,Medical,Male,2,Sales Executive,0,False
+33,Travel_Rarely,Life Sciences,Male,2,Laboratory Technician,1,True
+40,Travel_Rarely,Medical,Male,4,Manager,1,False
+24,Travel_Rarely,Technical Degree,Male,1,Laboratory Technician,0,True
+40,Non-Travel,Life Sciences,Male,2,Healthcare Representative,3,False
+45,Travel_Rarely,Technical Degree,Male,3,Healthcare Representative,1,False
+35,Travel_Rarely,Life Sciences,Female,1,Sales Representative,0,True
+32,Travel_Rarely,Life Sciences,Female,2,Research Scientist,3,True
+36,Travel_Rarely,Life Sciences,Male,1,Sales Representative,3,True
+48,Travel_Rarely,Life Sciences,Female,2,Sales Executive,8,False
+29,Travel_Rarely,Life Sciences,Male,1,Research Scientist,6,False
+33,Travel_Rarely,Life Sciences,Male,2,Sales Executive,2,True
+30,Travel_Rarely,Life Sciences,Male,2,Sales Executive,1,True
+38,Travel_Frequently,Human Resources,Male,2,Human Resources,3,True
+35,Travel_Rarely,Medical,Male,1,Laboratory Technician,1,True
+30,Travel_Rarely,Technical Degree,Male,3,Sales Executive,3,True
+35,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,1,True
+53,Travel_Rarely,Technical Degree,Female,3,Manufacturing Director,0,False
+38,Travel_Rarely,Medical,Male,2,Manufacturing Director,4,True
+32,Non-Travel,Technical Degree,Male,2,Research Scientist,4,True
+48,Travel_Rarely,Other,Female,1,Research Scientist,8,False
+34,Travel_Rarely,Medical,Male,1,Research Scientist,1,True
+55,Travel_Rarely,Marketing,Male,5,Manager,1,False
+34,Travel_Rarely,Life Sciences,Male,2,Research Scientist,9,False
+26,Travel_Rarely,Life Sciences,Female,1,Research Scientist,1,True
+38,Travel_Rarely,Life Sciences,Male,2,Sales Executive,0,True
+38,Travel_Rarely,Life Sciences,Female,2,Sales Executive,2,True
+36,Travel_Rarely,Life Sciences,Female,2,Sales Executive,6,False
+29,Travel_Rarely,Medical,Male,1,Laboratory Technician,1,True
+35,Travel_Rarely,Medical,Female,2,Healthcare Representative,3,True
+39,Travel_Rarely,Medical,Male,3,Sales Executive,2,False
+29,Travel_Frequently,Life Sciences,Male,2,Healthcare Representative,1,True
+50,Travel_Rarely,Marketing,Male,5,Manager,4,False
+23,Travel_Rarely,Technical Degree,Male,1,Research Scientist,2,True
+36,Travel_Frequently,Life Sciences,Male,2,Laboratory Technician,3,True
+42,Travel_Rarely,Other,Male,5,Manager,8,False
+35,Travel_Rarely,Life Sciences,Male,2,Laboratory Technician,1,True
+34,Travel_Frequently,Technical Degree,Male,2,Healthcare Representative,1,True
+40,Travel_Rarely,Life Sciences,Female,2,Sales Executive,1,False
+43,Travel_Rarely,Technical Degree,Male,1,Laboratory Technician,5,False
+35,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,1,True
+46,Travel_Rarely,Life Sciences,Male,4,Manager,1,False
+28,Travel_Rarely,Medical,Male,1,Laboratory Technician,1,True
+22,Non-Travel,Other,Female,1,Research Scientist,1,True
+50,Travel_Frequently,Medical,Male,4,Healthcare Representative,2,False
+32,Travel_Rarely,Other,Female,1,Research Scientist,3,True
+44,Travel_Rarely,Medical,Female,5,Research Director,0,False
+30,Travel_Rarely,Medical,Male,1,Research Scientist,1,True
+45,Travel_Rarely,Medical,Female,2,Laboratory Technician,1,False
+45,Non-Travel,Marketing,Male,2,Sales Executive,1,False
+31,Travel_Frequently,Other,Male,2,Sales Executive,7,False
+36,Travel_Rarely,Life Sciences,Female,2,Manufacturing Director,9,False
+34,Travel_Frequently,Life Sciences,Male,2,Manufacturing Director,1,True
+49,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,1,False
+39,Travel_Rarely,Medical,Male,2,Manufacturing Director,2,False
+27,Travel_Rarely,Other,Male,1,Laboratory Technician,1,True
+35,Travel_Rarely,Life Sciences,Male,2,Research Scientist,1,True
+28,Travel_Rarely,Medical,Female,2,Manufacturing Director,0,True
+21,Travel_Rarely,Medical,Male,1,Research Scientist,1,True
+18,Travel_Frequently,Medical,Female,1,Sales Representative,1,False
+47,Travel_Rarely,Life Sciences,Female,5,Manager,3,False
+39,Travel_Rarely,Medical,Male,2,Laboratory Technician,0,False
+40,Travel_Rarely,Life Sciences,Female,3,Manufacturing Director,1,False
+35,Non-Travel,Life Sciences,Female,2,Healthcare Representative,1,True
+37,Travel_Rarely,Life Sciences,Male,2,Manufacturing Director,3,True
+39,Travel_Frequently,Medical,Female,2,Manufacturing Director,0,False
+45,Travel_Rarely,Other,Female,2,Manufacturing Director,1,False
+38,Travel_Rarely,Medical,Female,3,Manufacturing Director,3,True
+35,Travel_Rarely,Medical,Male,3,Sales Executive,9,False
+37,Travel_Rarely,Medical,Female,1,Research Scientist,1,True
+40,Travel_Rarely,Life Sciences,Female,3,Manufacturing Director,6,False
+44,Travel_Frequently,Human Resources,Male,2,Human Resources,4,False
+48,Travel_Frequently,Medical,Male,4,Manager,2,False
+35,Travel_Rarely,Medical,Male,2,Sales Executive,6,False
+24,Travel_Frequently,Technical Degree,Female,1,Research Scientist,1,True
+27,Travel_Rarely,Medical,Female,1,Research Scientist,7,False
+27,Travel_Frequently,Medical,Male,1,Research Scientist,2,True
+40,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,3,False
+29,Travel_Rarely,Medical,Male,2,Sales Executive,9,False
+36,Travel_Rarely,Life Sciences,Female,3,Healthcare Representative,4,True
+25,Travel_Frequently,Life Sciences,Male,2,Manufacturing Director,1,True
+39,Travel_Rarely,Medical,Male,2,Manufacturing Director,4,False
+49,Travel_Rarely,Other,Female,4,Research Director,3,False
+50,Travel_Rarely,Life Sciences,Female,3,Research Director,5,False
+20,Travel_Rarely,Medical,Female,1,Sales Representative,1,False
+34,Travel_Rarely,Life Sciences,Female,2,Research Scientist,1,True
+36,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,2,True
+49,Travel_Rarely,Life Sciences,Female,4,Healthcare Representative,2,False
+36,Non-Travel,Medical,Female,2,Manufacturing Director,0,True
+36,Travel_Rarely,Life Sciences,Male,2,Healthcare Representative,6,False
+54,Travel_Rarely,Medical,Female,4,Manager,3,False
+43,Travel_Rarely,Life Sciences,Male,4,Research Director,1,False
+35,Travel_Frequently,Other,Male,2,Sales Executive,3,True
+38,Travel_Frequently,Life Sciences,Male,2,Research Scientist,7,False
+29,Travel_Rarely,Medical,Male,2,Sales Executive,1,True
+33,Travel_Rarely,Medical,Male,2,Sales Executive,1,True
+32,Travel_Rarely,Medical,Male,2,Research Scientist,0,True
+31,Travel_Rarely,Life Sciences,Female,2,Sales Executive,1,True
+49,Travel_Rarely,Medical,Female,1,Laboratory Technician,4,False
+38,Travel_Frequently,Medical,Female,1,Laboratory Technician,1,True
+47,Travel_Rarely,Life Sciences,Female,4,Manager,6,False
+49,Travel_Rarely,Life Sciences,Male,4,Manager,4,False
+41,Travel_Rarely,Life Sciences,Male,3,Sales Executive,3,False
+20,Travel_Rarely,Life Sciences,Male,1,Sales Representative,1,False
+33,Non-Travel,Life Sciences,Female,2,Sales Executive,1,True
+36,Travel_Rarely,Life Sciences,Male,2,Healthcare Representative,6,False
+44,Travel_Rarely,Life Sciences,Female,1,Human Resources,4,False
+23,Travel_Rarely,Medical,Male,1,Laboratory Technician,1,True
+38,Travel_Rarely,Medical,Female,1,Laboratory Technician,7,False
+53,Travel_Rarely,Medical,Male,3,Healthcare Representative,3,False
+48,Travel_Frequently,Medical,Female,1,Sales Representative,2,False
+32,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,1,True
+26,Non-Travel,Medical,Male,1,Laboratory Technician,1,True
+55,Travel_Rarely,Technical Degree,Male,1,Research Scientist,5,False
+34,Travel_Rarely,Medical,Male,2,Laboratory Technician,1,True
+60,Travel_Rarely,Medical,Male,3,Healthcare Representative,3,False
+33,Travel_Rarely,Medical,Male,1,Laboratory Technician,1,True
+37,Travel_Frequently,Medical,Male,2,Sales Executive,1,True
+34,Travel_Rarely,Life Sciences,Female,1,Research Scientist,1,True
+23,Travel_Rarely,Life Sciences,Male,1,Sales Representative,1,True
+44,Travel_Rarely,Life Sciences,Female,3,Healthcare Representative,1,False
+35,Travel_Frequently,Medical,Male,1,Research Scientist,0,True
+43,Travel_Rarely,Medical,Male,2,Sales Executive,1,False
+24,Travel_Rarely,Medical,Male,1,Research Scientist,1,True
+41,Travel_Rarely,Marketing,Male,3,Sales Executive,1,False
+29,Travel_Rarely,Medical,Female,1,Laboratory Technician,9,False
+36,Travel_Rarely,Life Sciences,Female,2,Sales Representative,3,True
+45,Non-Travel,Life Sciences,Male,3,Healthcare Representative,3,False
+24,Travel_Rarely,Human Resources,Male,1,Human Resources,1,True
+47,Travel_Frequently,Life Sciences,Male,4,Sales Executive,7,False
+26,Travel_Rarely,Medical,Male,1,Laboratory Technician,1,True
+45,Travel_Rarely,Technical Degree,Female,4,Research Director,1,False
+32,Travel_Frequently,Life Sciences,Male,1,Research Scientist,6,False
+31,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,1,True
+41,Non-Travel,Human Resources,Male,2,Human Resources,6,False
+40,Travel_Rarely,Life Sciences,Female,2,Manufacturing Director,2,False
+24,Travel_Rarely,Medical,Male,1,Laboratory Technician,1,True
+46,Travel_Rarely,Life Sciences,Male,2,Healthcare Representative,6,False
+35,Travel_Rarely,Life Sciences,Male,2,Manufacturing Director,2,True
+30,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,True
+47,Non-Travel,Marketing,Male,2,Sales Executive,7,False
+46,Travel_Rarely,Life Sciences,Male,3,Sales Executive,4,False
+36,Travel_Rarely,Marketing,Male,2,Sales Executive,5,False
+32,Travel_Rarely,Life Sciences,Male,2,Sales Executive,6,False
+23,Travel_Rarely,Medical,Female,1,Laboratory Technician,1,True
+31,Travel_Frequently,Technical Degree,Female,2,Manufacturing Director,2,True
+39,Non-Travel,Life Sciences,Male,2,Laboratory Technician,1,False
+32,Travel_Rarely,Life Sciences,Male,3,Sales Executive,3,True
+40,Travel_Rarely,Medical,Male,5,Manager,1,False
+45,Travel_Rarely,Life Sciences,Female,3,Human Resources,4,False
+30,Travel_Frequently,Technical Degree,Female,1,Research Scientist,0,True
+24,Travel_Frequently,Medical,Male,1,Human Resources,0,True
+30,Travel_Frequently,Human Resources,Female,1,Human Resources,6,False
+31,Travel_Rarely,Technical Degree,Male,2,Sales Executive,1,True
+27,Travel_Rarely,Medical,Female,1,Research Scientist,1,True
+29,Travel_Rarely,Marketing,Female,1,Sales Representative,1,True
+29,Travel_Frequently,Life Sciences,Male,2,Healthcare Representative,8,False
+30,Travel_Rarely,Marketing,Male,3,Sales Executive,2,True
+34,Travel_Rarely,Medical,Male,1,Research Scientist,0,True
+33,Non-Travel,Marketing,Female,2,Sales Executive,8,False
+49,Travel_Rarely,Marketing,Female,2,Sales Executive,3,False
+33,Travel_Rarely,Life Sciences,Female,3,Sales Executive,2,True
+38,Travel_Frequently,Medical,Female,1,Laboratory Technician,4,True
+31,Travel_Rarely,Marketing,Male,3,Sales Executive,2,True
+29,Travel_Rarely,Technical Degree,Female,1,Research Scientist,1,True
+30,Travel_Rarely,Life Sciences,Male,2,Healthcare Representative,3,True
+32,Non-Travel,Technical Degree,Male,1,Research Scientist,2,True
+38,Travel_Rarely,Medical,Male,2,Healthcare Representative,3,True
+43,Travel_Frequently,Technical Degree,Male,1,Research Scientist,9,False
+42,Travel_Rarely,Medical,Male,1,Laboratory Technician,8,False
+55,Travel_Rarely,Medical,Male,5,Research Director,8,False
+33,Non-Travel,Technical Degree,Male,2,Research Scientist,5,False
+41,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,1,False
+34,Non-Travel,Life Sciences,Male,2,Sales Executive,1,True
+53,Non-Travel,Medical,Female,4,Manufacturing Director,4,False
+43,Travel_Rarely,Life Sciences,Male,1,Human Resources,0,False
+34,Travel_Rarely,Life Sciences,Female,2,Sales Executive,5,False
+21,Travel_Rarely,Marketing,Male,1,Sales Representative,1,True
+38,Travel_Rarely,Other,Female,1,Laboratory Technician,1,True
+22,Travel_Rarely,Medical,Female,1,Laboratory Technician,1,True
+31,Travel_Rarely,Marketing,Female,2,Sales Executive,1,True
+51,Travel_Rarely,Technical Degree,Female,3,Manager,2,False
+37,Travel_Rarely,Marketing,Male,2,Sales Executive,1,True
+46,Travel_Rarely,Medical,Male,5,Research Director,7,False
+36,Travel_Rarely,Life Sciences,Male,3,Healthcare Representative,7,False
+44,Travel_Frequently,Medical,Male,1,Research Scientist,1,False
+37,Travel_Rarely,Other,Male,2,Human Resources,2,True
+35,Travel_Rarely,Life Sciences,Male,2,Sales Executive,1,True
+33,Travel_Rarely,Life Sciences,Male,1,Research Scientist,6,False
+28,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,True
+39,Travel_Rarely,Medical,Male,3,Research Director,7,False
+46,Non-Travel,Life Sciences,Male,2,Sales Executive,8,False
+40,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,4,False
+42,Travel_Rarely,Medical,Male,2,Healthcare Representative,5,False
+35,Non-Travel,Medical,Male,2,Manufacturing Director,2,True
+38,Non-Travel,Human Resources,Male,1,Human Resources,5,False
+34,Travel_Frequently,Life Sciences,Male,2,Laboratory Technician,4,True
+37,Travel_Rarely,Medical,Male,2,Manufacturing Director,1,True
+39,Travel_Frequently,Life Sciences,Male,2,Sales Executive,2,False
+43,Non-Travel,Life Sciences,Male,1,Research Scientist,4,False
+41,Travel_Rarely,Life Sciences,Male,2,Healthcare Representative,3,False
+41,Travel_Rarely,Marketing,Female,3,Sales Executive,0,False
+30,Travel_Rarely,Medical,Female,3,Manufacturing Director,9,False
+26,Travel_Rarely,Medical,Female,1,Human Resources,0,True
+46,Travel_Rarely,Medical,Female,2,Healthcare Representative,4,False
+40,Travel_Rarely,Life Sciences,Female,2,Healthcare Representative,4,False
+34,Travel_Rarely,Technical Degree,Male,2,Sales Executive,1,True
+58,Non-Travel,Medical,Male,4,Manager,4,False
+35,Travel_Rarely,Medical,Male,1,Laboratory Technician,0,True
+47,Travel_Rarely,Life Sciences,Female,3,Manufacturing Director,8,False
+40,Travel_Rarely,Life Sciences,Female,2,Healthcare Representative,2,False
+54,Travel_Rarely,Medical,Female,2,Research Scientist,4,False
+31,Travel_Frequently,Marketing,Female,3,Sales Executive,2,True
+28,Travel_Rarely,Medical,Female,1,Research Scientist,1,True
+38,Travel_Rarely,Marketing,Female,2,Sales Representative,2,True
+26,Travel_Rarely,Medical,Male,2,Sales Executive,1,True
+58,Travel_Frequently,Life Sciences,Male,4,Research Director,2,False
+18,Non-Travel,Medical,Female,1,Research Scientist,1,False
+31,Travel_Rarely,Human Resources,Male,1,Human Resources,0,True
+29,Travel_Rarely,Human Resources,Male,1,Human Resources,4,True
+45,Non-Travel,Life Sciences,Female,2,Sales Executive,4,False
+36,Travel_Rarely,Other,Female,2,Research Scientist,4,True
+43,Travel_Frequently,Life Sciences,Male,2,Sales Executive,1,False
+27,Travel_Frequently,Life Sciences,Female,1,Laboratory Technician,0,True
+29,Travel_Frequently,Medical,Male,1,Laboratory Technician,1,True
+32,Travel_Frequently,Marketing,Male,2,Sales Executive,8,False
+42,Non-Travel,Technical Degree,Male,1,Research Scientist,3,False
+47,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,4,False
+46,Travel_Rarely,Life Sciences,Male,3,Manufacturing Director,3,False
+28,Non-Travel,Life Sciences,Male,1,Human Resources,1,True
+29,Travel_Rarely,Life Sciences,Male,2,Healthcare Representative,8,False
+42,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,4,False
+32,Travel_Rarely,Marketing,Male,2,Sales Executive,7,False
+46,Travel_Rarely,Technical Degree,Female,4,Sales Executive,2,False
+27,Travel_Rarely,Medical,Female,2,Sales Representative,1,True
+29,Travel_Rarely,Medical,Male,1,Human Resources,1,True
+43,Travel_Rarely,Medical,Female,5,Manager,7,False
+48,Travel_Rarely,Life Sciences,Male,5,Research Director,4,False
+29,Travel_Frequently,Life Sciences,Male,1,Research Scientist,1,True
+46,Travel_Rarely,Life Sciences,Female,3,Sales Executive,5,False
+27,Travel_Frequently,Life Sciences,Female,1,Research Scientist,0,True
+39,Travel_Rarely,Other,Male,2,Research Scientist,8,False
+55,Travel_Rarely,Technical Degree,Male,1,Research Scientist,8,False
+28,Travel_Rarely,Medical,Female,1,Sales Representative,1,True
+30,Travel_Rarely,Medical,Male,1,Sales Representative,1,True
+22,Travel_Rarely,Life Sciences,Male,1,Research Scientist,1,True
+36,Travel_Rarely,Technical Degree,Female,2,Sales Executive,1,True
+31,Travel_Rarely,Life Sciences,Male,2,Laboratory Technician,1,True
+34,Travel_Rarely,Life Sciences,Male,3,Sales Executive,2,True
+29,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,3,True
+37,Travel_Rarely,Medical,Male,2,Research Scientist,5,False
+35,Travel_Rarely,Other,Female,2,Manufacturing Director,0,True
+45,Travel_Rarely,Life Sciences,Female,2,Manufacturing Director,0,False
+36,Travel_Frequently,Human Resources,Male,2,Human Resources,1,True
+40,Travel_Rarely,Life Sciences,Male,4,Manager,2,False
+26,Travel_Rarely,Life Sciences,Female,1,Research Scientist,1,True
+27,Travel_Rarely,Medical,Female,2,Sales Executive,0,True
+48,Travel_Frequently,Medical,Female,4,Manager,3,False
+44,Travel_Rarely,Life Sciences,Male,2,Healthcare Representative,2,False
+34,Non-Travel,Technical Degree,Male,1,Research Scientist,1,True
+56,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,1,False
+36,Travel_Rarely,Marketing,Male,2,Sales Executive,2,True
+41,Travel_Rarely,Marketing,Female,2,Sales Executive,5,False
+42,Travel_Rarely,Medical,Male,3,Research Director,9,False
+31,Travel_Rarely,Medical,Female,2,Sales Executive,2,True
+34,Travel_Rarely,Medical,Female,2,Sales Executive,3,True
+31,Travel_Rarely,Medical,Female,1,Laboratory Technician,8,False
+26,Travel_Frequently,Other,Male,1,Laboratory Technician,0,True
+45,Travel_Frequently,Medical,Male,2,Healthcare Representative,4,False
+33,Travel_Rarely,Marketing,Male,2,Sales Executive,1,True
+28,Travel_Frequently,Life Sciences,Male,2,Sales Executive,1,True
+29,Travel_Frequently,Technical Degree,Male,1,Sales Representative,1,True
+39,Non-Travel,Life Sciences,Female,2,Sales Executive,6,False
+27,Travel_Rarely,Technical Degree,Male,1,Research Scientist,1,True
+34,Travel_Frequently,Other,Male,2,Research Scientist,1,True
+28,Travel_Rarely,Marketing,Female,2,Sales Executive,3,True
+47,Non-Travel,Technical Degree,Male,2,Research Scientist,8,False
+56,Travel_Rarely,Marketing,Female,2,Sales Executive,4,False
+39,Travel_Rarely,Medical,Male,2,Manufacturing Director,1,False
+38,Travel_Frequently,Medical,Female,2,Research Scientist,1,True
+58,Travel_Rarely,Life Sciences,Female,4,Manager,4,False
+32,Travel_Frequently,Life Sciences,Female,1,Research Scientist,3,True
+38,Travel_Rarely,Life Sciences,Male,1,Research Scientist,2,True
+49,Travel_Frequently,Life Sciences,Male,5,Research Director,3,False
+42,Travel_Rarely,Marketing,Male,2,Sales Executive,3,False
+27,Travel_Frequently,Human Resources,Female,1,Human Resources,1,True
+35,Travel_Rarely,Medical,Male,2,Sales Executive,0,True
+28,Non-Travel,Medical,Male,1,Research Scientist,1,True
+31,Non-Travel,Medical,Male,1,Research Scientist,1,True
+36,Non-Travel,Life Sciences,Male,1,Laboratory Technician,1,True
+34,Travel_Rarely,Marketing,Male,3,Sales Executive,1,True
+34,Travel_Rarely,Medical,Male,3,Sales Executive,1,True
+26,Travel_Rarely,Medical,Male,1,Laboratory Technician,0,True
+29,Travel_Rarely,Life Sciences,Male,2,Healthcare Representative,0,True
+32,Non-Travel,Medical,Female,2,Healthcare Representative,5,False
+31,Travel_Frequently,Life Sciences,Male,2,Research Scientist,1,True
+28,Travel_Rarely,Technical Degree,Male,1,Laboratory Technician,5,False
+38,Travel_Rarely,Life Sciences,Male,1,Sales Representative,4,True
+35,Travel_Rarely,Life Sciences,Female,2,Sales Executive,1,True
+27,Travel_Rarely,Marketing,Male,2,Sales Executive,1,True
+32,Travel_Rarely,Life Sciences,Male,2,Manufacturing Director,8,False
+31,Travel_Frequently,Marketing,Male,2,Sales Executive,1,True
+53,Travel_Rarely,Life Sciences,Male,3,Sales Executive,6,False
+54,Travel_Rarely,Life Sciences,Female,2,Research Scientist,3,False
+33,Travel_Frequently,Life Sciences,Male,2,Healthcare Representative,1,True
+43,Travel_Rarely,Life Sciences,Male,3,Healthcare Representative,1,False
+38,Travel_Frequently,Other,Male,1,Human Resources,0,True
+55,Travel_Rarely,Human Resources,Male,5,Manager,4,False
+31,Travel_Rarely,Medical,Female,1,Laboratory Technician,1,True
+39,Travel_Rarely,Marketing,Male,4,Sales Executive,0,False
+42,Non-Travel,Life Sciences,Male,2,Research Scientist,1,False
+31,Non-Travel,Medical,Female,3,Research Director,4,True
+54,Travel_Rarely,Medical,Female,2,Manufacturing Director,6,False
+24,Travel_Rarely,Life Sciences,Male,2,Healthcare Representative,1,True
+23,Travel_Rarely,Other,Male,1,Laboratory Technician,1,True
+40,Travel_Frequently,Technical Degree,Female,2,Laboratory Technician,1,False
+40,Travel_Rarely,Marketing,Female,2,Sales Executive,3,False
+25,Travel_Rarely,Human Resources,Female,1,Human Resources,4,True
+30,Travel_Rarely,Medical,Male,1,Laboratory Technician,1,True
+25,Travel_Rarely,Other,Male,1,Laboratory Technician,6,False
+47,Travel_Rarely,Medical,Male,3,Healthcare Representative,2,False
+33,Non-Travel,Medical,Male,1,Laboratory Technician,1,True
+38,Travel_Rarely,Life Sciences,Male,2,Sales Executive,0,True
+31,Travel_Rarely,Life Sciences,Male,1,Sales Representative,0,True
+38,Travel_Frequently,Life Sciences,Male,2,Manufacturing Director,2,True
+42,Travel_Rarely,Life Sciences,Male,2,Research Scientist,6,False
+41,Travel_Rarely,Life Sciences,Male,1,Research Scientist,3,False
+47,Non-Travel,Medical,Female,3,Research Director,0,False
+35,Travel_Rarely,Medical,Male,1,Laboratory Technician,7,False
+22,Travel_Rarely,Life Sciences,Male,1,Research Scientist,0,True
+35,Travel_Rarely,Medical,Male,2,Research Scientist,1,True
+33,Travel_Rarely,Medical,Female,2,Healthcare Representative,0,True
+32,Travel_Rarely,Life Sciences,Female,1,Laboratory Technician,1,True
+40,Travel_Rarely,Life Sciences,Male,1,Laboratory Technician,8,False
+32,Travel_Rarely,Medical,Male,1,Sales Representative,0,True
+39,Travel_Rarely,Life Sciences,Male,2,Research Scientist,7,False
+38,Travel_Rarely,Medical,Female,3,Research Director,3,True
+32,Travel_Rarely,Marketing,Female,3,Sales Executive,1,True
+37,Travel_Rarely,Life Sciences,Female,3,Research Director,1,True
+25,Travel_Rarely,Other,Female,2,Sales Executive,0,True
+52,Non-Travel,Life Sciences,Male,1,Sales Representative,2,False
+44,Travel_Rarely,Medical,Male,1,Research Scientist,6,False
+21,Travel_Rarely,Medical,Male,1,Sales Representative,1,True
+39,Non-Travel,Life Sciences,Male,5,Manager,2,False
+23,Travel_Frequently,Marketing,Male,1,Sales Representative,1,True
+36,Travel_Rarely,Medical,Female,3,Sales Executive,0,True
+36,Travel_Frequently,Life Sciences,Female,2,Manufacturing Director,7,False
+56,Non-Travel,Life Sciences,Male,2,Healthcare Representative,1,False
+29,Travel_Rarely,Medical,Male,1,Research Scientist,9,False
+42,Travel_Rarely,Life Sciences,Male,5,Manager,5,False
+56,Travel_Rarely,Technical Degree,Male,1,Laboratory Technician,8,False
+41,Travel_Rarely,Life Sciences,Female,4,Manufacturing Director,0,False
+34,Travel_Rarely,Marketing,Female,2,Sales Executive,1,True
+36,Non-Travel,Marketing,Male,2,Sales Executive,1,True
+41,Travel_Rarely,Life Sciences,Male,2,Sales Executive,2,False
+32,Travel_Rarely,Technical Degree,Male,1,Research Scientist,1,True
+35,Travel_Rarely,Life Sciences,Female,3,Human Resources,1,True
+38,Travel_Rarely,Life Sciences,Female,2,Sales Executive,1,True
+50,Travel_Frequently,Life Sciences,Male,2,Sales Executive,7,False
+36,Travel_Rarely,Marketing,Female,2,Sales Executive,4,True
+45,Travel_Rarely,Life Sciences,Female,2,Sales Executive,8,False
+40,Travel_Rarely,Life Sciences,Male,1,Research Scientist,2,False
+35,Travel_Frequently,Life Sciences,Male,2,Healthcare Representative,1,True
+40,Travel_Rarely,Medical,Female,1,Research Scientist,2,False
+35,Travel_Rarely,Life Sciences,Female,1,Research Scientist,1,True
+29,Travel_Rarely,Other,Male,2,Laboratory Technician,4,True
+29,Travel_Rarely,Medical,Female,1,Research Scientist,1,True
+50,Travel_Rarely,Marketing,Male,3,Sales Executive,4,False
+39,Travel_Rarely,Marketing,Female,4,Sales Executive,0,False
+31,Non-Travel,Medical,Male,2,Manufacturing Director,0,True
+26,Travel_Rarely,Other,Female,1,Sales Representative,0,True
+36,Travel_Frequently,Medical,Male,2,Laboratory Technician,4,True
+39,Travel_Rarely,Medical,Male,3,Healthcare Representative,4,False
+27,Travel_Rarely,Life Sciences,Male,2,Manufacturing Director,1,True
+49,Travel_Frequently,Medical,Male,2,Sales Executive,2,False
+34,Travel_Rarely,Medical,Male,2,Laboratory Technician,2,True
