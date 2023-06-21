@@ -15,8 +15,8 @@ if __name__ == '__main__':
     seed = 53
 
     # Verrà usato lo stesso dataset per due diversi task
-    firstDataset = Dataset('../Datasets/WA_Fn-UseC_-HR-Employee-Attrition.csv')
-    secondDataset = Dataset('../Datasets/WA_Fn-UseC_-HR-Employee-Attrition.csv')
+    firstDataset = Dataset('./Datasets/WA_Fn-UseC_-HR-Employee-Attrition.csv')
+    secondDataset = Dataset('./Datasets/WA_Fn-UseC_-HR-Employee-Attrition.csv')
 
     # Features da mantere per il primo task
     featureDropFirstDataset = ['Age', 'BusinessTravel', 'EducationField', 'Gender',
@@ -43,8 +43,10 @@ if __name__ == '__main__':
     # firstDataset.categorical_var_normalization("Normalized_FirstDataset.csv")
     # secondDataset.categorical_var_normalization("Normalized_SecondDataset.csv")
 
-    normal_firstDataset = Dataset('../Datasets/Normalized_FirstDataset.csv')
-    normal_secondDataset = Dataset('../Datasets/Normalized_SecondDataset.csv')
+
+    normal_firstDataset = Dataset('./Datasets/Normalized_FirstDataset.csv')
+    normal_secondDataset = Dataset('./Datasets/Normalized_SecondDataset.csv')
+    dataset = secondDataset.numeric_variables('TestNormalizedSecondDataset.csv')
 
     # per il primo dataset
     x_train, x_test = train_test_split(normal_firstDataset.dataset,

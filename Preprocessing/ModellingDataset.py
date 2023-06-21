@@ -2,7 +2,7 @@ import sys
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-#from pyswip import Prolog
+# from pyswip import Prolog
 import numpy as np
 
 
@@ -58,7 +58,8 @@ class Dataset:
         rows = self.dataset.to_numpy()  # return: list of array for each columns
         df = pd.DataFrame(rows)
         df.columns = self.dataset.keys()
-        df.to_csv("../Datasets/" + file_name, index=False)
+        print(sys.path[0])
+        df.to_csv("./Datasets/" + file_name, index=False)
 
     def create_boxplot(self, orientation: str):
         """
@@ -87,11 +88,11 @@ class Dataset:
         result = []
 
         for _, val in self.dataset.iterrows():
-            query = f"suitable(person({str(val['JobRole']).replace(' ','')},{val['Age']},{str(val['EducationField']).replace(' ','')},{val['NumCompaniesWorked']},{str(val['BusinessTravel']).replace('_','').replace('-','')}))"
+            query = f"suitable(person({str(val['JobRole']).replace(' ', '')},{val['Age']},{str(val['EducationField']).replace(' ', '')},{val['NumCompaniesWorked']},{str(val['BusinessTravel']).replace('_', '').replace('-', '')}))"
             result.append(bool(list(prolog.query(query))))
 
         self.dataset['Suitable'] = result
-        #self.write_csv("Complete_first_dataset.csv")
+        # self.write_csv("Complete_first_dataset.csv")
 
     def count_variables(self):
         """
@@ -101,9 +102,7 @@ class Dataset:
         for i in keys:
             print(self.dataset[i].value_counts())
 
-
-
-    def categorical_var_normalization(self, file_name:str):
+    def categorical_var_normalization(self, file_name: str):
         """
         Funzione per la normalizzazione delle variabili categoriche
         :param file_name: nome del nuovo file csv
@@ -129,7 +128,8 @@ class Dataset:
                 all_possible_values.remove('Research Scientist')
                 all_possible_values.remove('Manager')
                 all_possible_values.remove('Laboratory Technician')
-                self.dataset[key] = self.dataset[key].replace(['Research Scientist', 'Manager', 'Laboratory Technician'], 1)
+                self.dataset[key] = self.dataset[key].replace(
+                    ['Research Scientist', 'Manager', 'Laboratory Technician'], 1)
                 self.dataset[key] = self.dataset[key].replace(all_possible_values, 0)
             if key == "MaritalStatus":
                 self.dataset[key] = self.dataset[key].replace('Single', 0)
@@ -143,3 +143,20 @@ class Dataset:
                 self.dataset[key] = self.dataset[key].replace(True, 1)
 
         self.write_csv(file_name)
+
+    def numeric_variables(self, file_name: str):
+        numeric_variables = ['JobSatisfaction', 'DistanceFromHome', 'DailyRate','HourlyRate','JobInvolvement',
+                             'MonthlyIncome','MonthlyRate','PercentSalaryHike','PerformanceRating','RelationshipSatisfaction',
+                             'WorkLifeBalance','YearsAtCompany','YearsInCurrentRole','YearsSinceLastPromotion','YearsWithCurrManager']
+        self.dataset[numeric_variables] = (self.dataset[numeric_variables] - self.dataset[
+        numeric_variables].mean()) / self.dataset[numeric_variables].std()
+        self.dataset[numeric_variables] = (self.dataset[numeric_variables] - self.dataset[
+                numeric_variables].min()) / (self.dataset[numeric_variables].max() - self.dataset[
+                numeric_variables].min())
+
+        self.write_csv(file_name)
+        return self.dataset
+
+
+
+
