@@ -2,7 +2,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from sklearn.tree import DecisionTreeClassifier
 
 
-class DecisionTree:
+class MyDecisionTreeClassifier:
 
     def __init__(self, x_train, x_test, y_train, y_test):
         dtree = DecisionTreeClassifier()

@@ -4,7 +4,7 @@ from sklearn.metrics import accuracy_score, f1_score, recall_score, precision_sc
 
 class SVM:
 
-    def __init__(self,x_train ,x_test ,y_train, y_test):
+    def __init__(self, x_train, x_test, y_train, y_test):
         SVM = svm.SVC()
         SVM.fit(x_train, y_train)
         y_pred = SVM.predict(x_test)

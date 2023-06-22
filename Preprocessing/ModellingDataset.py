@@ -2,6 +2,7 @@ import sys
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+from sklearn.preprocessing import  LabelEncoder
 # from pyswip import Prolog
 import numpy as np
 
@@ -58,7 +59,6 @@ class Dataset:
         rows = self.dataset.to_numpy()  # return: list of array for each columns
         df = pd.DataFrame(rows)
         df.columns = self.dataset.keys()
-        print(sys.path[0])
         df.to_csv(sys.path[0]+"/Datasets/" + file_name, index=False)
 
     def create_boxplot(self, orientation: str):
@@ -145,8 +145,12 @@ class Dataset:
         self.write_csv(file_name)
 
     def numeric_variables(self):
-        numeric_variables = ['JobSatisfaction', 'DistanceFromHome', 'DailyRate','HourlyRate','JobInvolvement',
-                             'MonthlyIncome','MonthlyRate','PercentSalaryHike','PerformanceRating','RelationshipSatisfaction',
+        """
+        Funzione usata per normalizzare le variabili numeriche
+        :return:
+        """
+        numeric_variables = ['JobSatisfaction', 'DistanceFromHome', 'DailyRate', 'HourlyRate', 'JobInvolvement',
+                             'MonthlyIncome', 'MonthlyRate', 'PercentSalaryHike','PerformanceRating','RelationshipSatisfaction',
                              'WorkLifeBalance','YearsAtCompany','YearsInCurrentRole','YearsSinceLastPromotion','YearsWithCurrManager']
         self.dataset[numeric_variables] = (self.dataset[numeric_variables] - self.dataset[
                                             numeric_variables].mean()) / self.dataset[numeric_variables].std()
@@ -154,3 +158,21 @@ class Dataset:
                                             numeric_variables].min()) / (self.dataset[numeric_variables].max() -
                                                                          self.dataset[numeric_variables].min())
 
+    def categorical_variable_for_all_dataset(self, file_name: str):
+        """
+        Funzione di ausilio utilizzata per normalizzare le variabili
+        categoriche del dataset per intero
+        :param file_name: nome del file da salvare
+        :return:
+        """
+        encoder = LabelEncoder()
+        self.dataset['Attrition'] = encoder.fit_transform(self.dataset['Attrition'])
+        self.dataset['BusinessTravel'] = encoder.fit_transform(self.dataset['BusinessTravel'])
+        self.dataset['Department'] = encoder.fit_transform(self.dataset['Department'])
+        self.dataset['EducationField'] = encoder.fit_transform(self.dataset['EducationField'])
+        self.dataset['Gender'] = encoder.fit_transform(self.dataset['Gender'])
+        self.dataset['JobRole'] = encoder.fit_transform(self.dataset['JobRole'])
+        self.dataset['MaritalStatus'] = encoder.fit_transform(self.dataset['MaritalStatus'])
+        self.dataset['OverTime'] = encoder.fit_transform(self.dataset['OverTime'])
+        self.dataset['Over18'] = encoder.fit_transform(self.dataset['Over18'])
+        self.write_csv(file_name)
