@@ -20,7 +20,7 @@ class Dataset:
         dataset : nome del dataset su cui fare il preprocessing
 
         """
-        self.dataset = pd.read_csv(dataset)
+        self.dataset = pd.read_csv(sys.path[0]+dataset)
         print(self.dataset.shape)
         print(self.dataset.head(5))
         # dataFrame = sns.load_dataset(dataset)
@@ -59,7 +59,7 @@ class Dataset:
         df = pd.DataFrame(rows)
         df.columns = self.dataset.keys()
         print(sys.path[0])
-        df.to_csv("./Datasets/" + file_name, index=False)
+        df.to_csv(sys.path[0]+"/Datasets/" + file_name, index=False)
 
     def create_boxplot(self, orientation: str):
         """
@@ -144,19 +144,13 @@ class Dataset:
 
         self.write_csv(file_name)
 
-    def numeric_variables(self, file_name: str):
+    def numeric_variables(self):
         numeric_variables = ['JobSatisfaction', 'DistanceFromHome', 'DailyRate','HourlyRate','JobInvolvement',
                              'MonthlyIncome','MonthlyRate','PercentSalaryHike','PerformanceRating','RelationshipSatisfaction',
                              'WorkLifeBalance','YearsAtCompany','YearsInCurrentRole','YearsSinceLastPromotion','YearsWithCurrManager']
         self.dataset[numeric_variables] = (self.dataset[numeric_variables] - self.dataset[
-        numeric_variables].mean()) / self.dataset[numeric_variables].std()
+                                            numeric_variables].mean()) / self.dataset[numeric_variables].std()
         self.dataset[numeric_variables] = (self.dataset[numeric_variables] - self.dataset[
-                numeric_variables].min()) / (self.dataset[numeric_variables].max() - self.dataset[
-                numeric_variables].min())
-
-        self.write_csv(file_name)
-        return self.dataset
-
-
-
+                                            numeric_variables].min()) / (self.dataset[numeric_variables].max() -
+                                                                         self.dataset[numeric_variables].min())
 
