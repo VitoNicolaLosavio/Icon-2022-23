@@ -9,12 +9,12 @@ from sklearn.model_selection import RepeatedStratifiedKFold, GridSearchCV
 
 class RandomForest:
 
-    def __init__(self, x_train: pd.DataFrame, x_test: pd.DataFrame, y_train: pd.DataFrame, y_test: pd.DataFrame):
+    def __init__(self, x_train, x_test, y_train, y_test):
         self.rfc = RandomForestClassifier()
-        self.x_train = x_train
-        self.x_test = x_test
-        self.y_train = y_train
-        self.y_test = y_test
+        self.x_train: pd.DataFrame = x_train
+        self.x_test: pd.DataFrame = x_test
+        self.y_train: pd.DataFrame = y_train
+        self.y_test: pd.DataFrame = y_test
 
     def evaluate_model(self, seed):
         param_dist = {'n_estimators': np.arange(3, 25),
