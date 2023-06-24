@@ -1,15 +1,77 @@
+import numpy as np
+from matplotlib import pyplot as plt
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report
+from sklearn.model_selection import GridSearchCV, validation_curve, learning_curve, RepeatedStratifiedKFold
 from sklearn.neighbors import KNeighborsClassifier
 
 
 class KNN:
     def __init__(self, x_train, x_test, y_train, y_test):
-        knn = KNeighborsClassifier()
-        knn.fit(x_train, y_train)
-        y_pred = knn.predict(x_test)
-        # print("Precision del KNN:", precision_score(y_test, y_pred))
-        # print("Recall del KNN:", recall_score(y_test, y_pred))
-        # print("F1 del KNN:", f1_score(y_test, y_pred))
-        # print("Accuracy Score del KNN :", accuracy_score(y_test, y_pred) * 100, "%")
-        print("Report del KNN")
-        print(classification_report(y_pred, y_test))
+        self.knn = KNeighborsClassifier()
+        self.x_train = x_train
+        self.x_test = x_test
+        self.y_train = y_train
+        self.y_test = y_test
+
+    def evaluation_model(self, seed):
+        self.knn.fit(self.x_train, self.y_train)
+        param_grid = dict(n_neighbors=list(range(1, 50)))
+
+        cv = RepeatedStratifiedKFold(n_splits=5, n_repeats=5, random_state=seed)
+        grid = GridSearchCV(self.knn, param_grid, cv=cv, scoring="accuracy", error_score=0)
+        grid.fit(self.x_train, self.y_train)
+        best_model: KNeighborsClassifier = self.knn.set_params(**grid.best_params_)
+
+        parameter_range = np.arange(1, 30, 1)
+
+        score, train_scores, valid_scores = learning_curve(estimator=best_model,
+                                                           X=self.x_train, y=self.y_train,
+                                                           scoring='accuracy')
+
+        mean_train_score = np.mean(train_scores, axis=1)
+
+        mean_valuation_score = np.mean(valid_scores, axis=1)
+
+        plt.title('curva di apprendimento')
+        plt.plot(score, mean_train_score,
+                 marker='o', markersize=5,
+                 color='black', label='Training Accuracy')
+        plt.plot(score, mean_valuation_score,
+                 marker='o', markersize=5,
+                 color='green', label='Validation Accuracy')
+        plt.ylabel('Accuracy')
+        plt.grid()
+        plt.show()
+
+        train_scores, valid_scores = validation_curve(estimator=best_model,
+                                                      X=self.x_train, y=self.y_train,
+                                                      param_name='n_neighbors',
+                                                      param_range=parameter_range,
+                                                      scoring='accuracy',
+                                                      n_jobs=-1)
+        mean_train_score = np.mean(train_scores, axis=1)
+
+        mean_valuation_score = np.mean(valid_scores, axis=1)
+
+        plt.title('curva di validazione')
+
+        plt.plot(parameter_range, mean_train_score,
+                 marker='o', markersize=5,
+                 color='black', label='Training Accuracy')
+        plt.plot(parameter_range, mean_valuation_score,
+                 marker='o', markersize=5,
+                 color='green', label='Validation Accuracy')
+        plt.xlabel('n neighbors')
+        plt.ylabel('Accuracy')
+        plt.grid()
+        plt.show()
+
+        best_model.fit(self.x_train, self.y_train)
+        y_pred = best_model.predict(self.x_test)
+
+        print("REPORT DEL MIGLIORE MODELLO KNN TROVATO")
+        print(classification_report(y_pred, self.y_test))
+
+
+
+

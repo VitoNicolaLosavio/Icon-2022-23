@@ -1,6 +1,11 @@
 import sys
 
-from sklearn.model_selection import train_test_split
+import numpy as np
+from matplotlib import pyplot as plt
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.model_selection import train_test_split, validation_curve, learning_curve
+from sklearn.pipeline import make_pipeline
+from sklearn.preprocessing import StandardScaler
 from sklearn.utils import shuffle
 
 from Models.MarkovChain import MarkovChain
@@ -15,10 +20,10 @@ from Models.LinearRegression import RegressioneLineare
 from Models.LogisticRegression import LogisticRegressionClass
 from Models.Clustering import Clustering
 
+
 if __name__ == '__main__':
     seed = 53
 
-    print(sys.path[0])
     # Verrà usato lo stesso dataset per due diversi task
     firstDataset = Dataset('/Datasets/WA_Fn-UseC_-HR-Employee-Attrition.csv')
     secondDataset = Dataset('/Datasets/WA_Fn-UseC_-HR-Employee-Attrition.csv')
@@ -45,12 +50,10 @@ if __name__ == '__main__':
 
     # firstDataset.create_feature_target()
 
-
     secondDataset.numeric_variables()
 
-    #firstDataset.categorical_var_normalization("/Normalized_FirstDataset.csv")
+    # firstDataset.categorical_var_normalization("/Normalized_FirstDataset.csv")
     secondDataset.categorical_var_normalization("/Normalized_SecondDataset.csv")
-
 
     normal_firstDataset = Dataset('/Datasets/Normalized_FirstDataset.csv')
     normal_secondDataset = Dataset('/Datasets/Normalized_SecondDataset.csv')
@@ -58,43 +61,41 @@ if __name__ == '__main__':
     # per il primo dataset
     X = normal_firstDataset.dataset
     Y = X['Suitable']
-    X.drop('Suitable', axis=1)
+    X = X.drop('Suitable', axis=1)
+
 
     x_train, x_test, y_train, y_test = train_test_split(X, Y,
-                                       stratify=Y,
-                                       test_size=0.30,
-                                       train_size=0.70,
-                                       shuffle=True, random_state=seed)
+                                                        stratify=Y,
+                                                        test_size=0.30,
+                                                        train_size=0.70,
+                                                        shuffle=True, random_state=seed)
 
     print('\nRISULTATI OTTENUTI DAL PRIMO DATASET')
-    print('PER LA PRIMA PARTE UTILIZZIAMO DEI CLASSIFICATORI\n')
-    RandomForest(x_train, x_test, y_train, y_test)
-    MyDecisionTreeClassifier(x_train, x_test, y_train, y_test)
-    SVM(x_train, x_test, y_train, y_test)
-    KNN(x_train, x_test, y_train, y_test)
+    #RandomForest(x_train, x_test, y_train, y_test).evaluate_model(seed)
+    #MyDecisionTreeClassifier(x_train, x_test, y_train, y_test).evaluation_model(seed, 'decisionTreeFirstTask.dot')
+    #SVM(x_train, x_test, y_train, y_test).evaluate_model(seed)
+    #KNN(x_train, x_test, y_train, y_test).evaluation_model(seed)
     NeuralNetwork(x_train, x_test, y_train, y_test)
     GaussianNeuralBayes(x_train, x_test, y_train, y_test)
-
 
     # per il secondo dataset
     X = normal_secondDataset.dataset
     Y = X['JobSatisfaction']
-    X.drop('JobSatisfaction', axis=1)
+    X = X.drop('JobSatisfaction', axis=1)
 
     x_train, x_test, y_train_reg, y_test_reg = train_test_split(X, Y,
-                                       stratify=round(Y),
-                                       test_size=0.30,
-                                       train_size=0.70,
-                                       shuffle=True, random_state=seed)
+                                                                stratify=round(Y),
+                                                                test_size=0.30,
+                                                                train_size=0.70,
+                                                                shuffle=True, random_state=seed)
 
     y_train = round(y_train_reg)
     y_test = round(y_test)
     print('\nRISULTATI OTTENUTI DAL SECONDO DATASET')
-    print('PER LA SECONDA PARTE UTILIZZIAMO DEI CLASSIFICATORI\n')
-    RandomForest(x_train, x_test, y_train, y_test)
-    MyDecisionTreeClassifier(x_train, x_test, y_train, y_test)
-    SVM(x_train, x_test, y_train, y_test)
-    KNN(x_train, x_test, y_train, y_test)
+    #RandomForest(x_train, x_test, y_train, y_test).evaluate_model(seed)
+    #MyDecisionTreeClassifier(x_train, x_test, y_train, y_test).evaluation_model(seed, 'decisionTreeSecondTask.dot')
+    #SVM(x_train, x_test, y_train, y_test).evaluate_model(seed)
+    #KNN(x_train, x_test, y_train, y_test).evaluation_model(seed)
     NeuralNetwork(x_train, x_test, y_train, y_test)
     GaussianNeuralBayes(x_train, x_test, y_train, y_test)
     RegressioneLineare(x_train, x_test, y_train_reg, y_test_reg)
@@ -105,3 +106,4 @@ if __name__ == '__main__':
     X = Dataset('/Datasets/dataset_normalized_for_unsupervisionated_learning.csv')
     MarkovChain(X.dataset)
     Clustering(X.dataset, X.dataset.keys().__len__())
+
