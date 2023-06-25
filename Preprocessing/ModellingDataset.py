@@ -2,6 +2,7 @@ import sys
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+from sklearn.preprocessing import  LabelEncoder
 from pyswip import Prolog
 import numpy as np
 
@@ -20,7 +21,7 @@ class Dataset:
         dataset : nome del dataset su cui fare il preprocessing
 
         """
-        self.dataset = pd.read_csv(dataset)
+        self.dataset = pd.read_csv(sys.path[0]+dataset)
         print(self.dataset.shape)
         print(self.dataset.head(5))
         # dataFrame = sns.load_dataset(dataset)
@@ -58,7 +59,7 @@ class Dataset:
         rows = self.dataset.to_numpy()  # return: list of array for each columns
         df = pd.DataFrame(rows)
         df.columns = self.dataset.keys()
-        df.to_csv("../Datasets/" + file_name, index=False)
+        df.to_csv(sys.path[0]+"/Datasets/" + file_name, index=False)
 
     def create_boxplot(self, orientation: str):
         """
@@ -87,11 +88,11 @@ class Dataset:
         result = []
 
         for _, val in self.dataset.iterrows():
-            query = f"suitable(person({str(val['JobRole']).replace(' ','')},{val['Age']},{str(val['EducationField']).replace(' ','')},{val['NumCompaniesWorked']},{str(val['BusinessTravel']).replace('_','').replace('-','')}))"
+            query = f"suitable(person({str(val['JobRole']).replace(' ', '')},{val['Age']},{str(val['EducationField']).replace(' ', '')},{val['NumCompaniesWorked']},{str(val['BusinessTravel']).replace('_', '').replace('-', '')}))"
             result.append(bool(list(prolog.query(query))))
 
         self.dataset['Suitable'] = result
-        self.write_csv("Complete_first_dataset.csv")
+        # self.write_csv("Complete_first_dataset.csv")
 
     def count_variables(self):
         """
@@ -101,9 +102,7 @@ class Dataset:
         for i in keys:
             print(self.dataset[i].value_counts())
 
-
-
-    def categorical_var_normalization(self, file_name:str):
+    def categorical_var_normalization(self, file_name: str):
         """
         Funzione per la normalizzazione delle variabili categoriche
         :param file_name: nome del nuovo file csv
@@ -129,7 +128,8 @@ class Dataset:
                 all_possible_values.remove('Research Scientist')
                 all_possible_values.remove('Manager')
                 all_possible_values.remove('Laboratory Technician')
-                self.dataset[key] = self.dataset[key].replace(['Research Scientist', 'Manager', 'Laboratory Technician'], 1)
+                self.dataset[key] = self.dataset[key].replace(
+                    ['Research Scientist', 'Manager', 'Laboratory Technician'], 1)
                 self.dataset[key] = self.dataset[key].replace(all_possible_values, 0)
             if key == "MaritalStatus":
                 self.dataset[key] = self.dataset[key].replace('Single', 0)
@@ -142,4 +142,37 @@ class Dataset:
                 self.dataset[key] = self.dataset[key].replace(False, 0)
                 self.dataset[key] = self.dataset[key].replace(True, 1)
 
+        self.write_csv(file_name)
+
+    def numeric_variables(self):
+        """
+        Funzione usata per normalizzare le variabili numeriche
+        :return:
+        """
+        numeric_variables = ['JobSatisfaction', 'DistanceFromHome', 'DailyRate', 'HourlyRate', 'JobInvolvement',
+                             'MonthlyIncome', 'MonthlyRate', 'PercentSalaryHike','PerformanceRating','RelationshipSatisfaction',
+                             'WorkLifeBalance','YearsAtCompany','YearsInCurrentRole','YearsSinceLastPromotion','YearsWithCurrManager']
+        self.dataset[numeric_variables] = (self.dataset[numeric_variables] - self.dataset[
+                                            numeric_variables].mean()) / self.dataset[numeric_variables].std()
+        self.dataset[numeric_variables] = (self.dataset[numeric_variables] - self.dataset[
+                                            numeric_variables].min()) / (self.dataset[numeric_variables].max() -
+                                                                         self.dataset[numeric_variables].min())
+
+    def categorical_variable_for_all_dataset(self, file_name: str):
+        """
+        Funzione di ausilio utilizzata per normalizzare le variabili
+        categoriche del dataset per intero
+        :param file_name: nome del file da salvare
+        :return:
+        """
+        encoder = LabelEncoder()
+        self.dataset['Attrition'] = encoder.fit_transform(self.dataset['Attrition'])
+        self.dataset['BusinessTravel'] = encoder.fit_transform(self.dataset['BusinessTravel'])
+        self.dataset['Department'] = encoder.fit_transform(self.dataset['Department'])
+        self.dataset['EducationField'] = encoder.fit_transform(self.dataset['EducationField'])
+        self.dataset['Gender'] = encoder.fit_transform(self.dataset['Gender'])
+        self.dataset['JobRole'] = encoder.fit_transform(self.dataset['JobRole'])
+        self.dataset['MaritalStatus'] = encoder.fit_transform(self.dataset['MaritalStatus'])
+        self.dataset['OverTime'] = encoder.fit_transform(self.dataset['OverTime'])
+        self.dataset['Over18'] = encoder.fit_transform(self.dataset['Over18'])
         self.write_csv(file_name)
