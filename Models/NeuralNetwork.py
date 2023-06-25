@@ -16,8 +16,8 @@ class NeuralNetwork:
 
     def evaluate_model(self, seed):
         self.neural_network.fit(self.x_train, self.y_train)
-        param_grid  = {
-            'hidden_layer_sizes': [ (10, ), (20,)],
+        param_grid = {
+            'hidden_layer_sizes': [(10, ), (20,)],
             'activation': ['tanh', 'relu'],
             'solver': ['sgd', 'adam'],
             'alpha': [0.0001, 0.05],

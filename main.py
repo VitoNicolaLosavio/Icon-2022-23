@@ -1,14 +1,4 @@
-import sys
-
-import numpy as np
-from matplotlib import pyplot as plt
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.model_selection import train_test_split, validation_curve, learning_curve
-from sklearn.pipeline import make_pipeline
-from sklearn.preprocessing import StandardScaler
-from sklearn.utils import shuffle
-
-from Models.MarkovChain import MarkovChain
+from sklearn.model_selection import train_test_split
 from Preprocessing.ModellingDataset import Dataset
 from Models.RandomForest import RandomForest
 from Models.SVM import SVM
@@ -45,8 +35,8 @@ if __name__ == '__main__':
     secondDataset.drop_columns(featureDropSecondDataset, "Second_dataset.csv")
 
     # Generazione dei grafici relativi alla valutazione delle features
-    # firstDataset.valutation_features("h")
-    # secondDataset.valutation_features("h")
+    firstDataset.create_boxplot("h")
+    secondDataset.create_boxplot("h")
 
     # firstDataset.create_feature_target()
 
@@ -104,6 +94,5 @@ if __name__ == '__main__':
     X = Dataset('/Datasets/WA_Fn-UseC_-HR-Employee-Attrition.csv')
     X.categorical_variable_for_all_dataset('dataset_normalized_for_unsupervisionated_learning.csv')
     X = Dataset('/Datasets/dataset_normalized_for_unsupervisionated_learning.csv')
-    MarkovChain(X.dataset)
     Clustering(X.dataset, X.dataset.keys().__len__())
 
