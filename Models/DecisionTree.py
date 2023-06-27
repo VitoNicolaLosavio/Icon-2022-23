@@ -1,7 +1,6 @@
 import numpy as np
 from matplotlib import pyplot as plt
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report
-from sklearn.model_selection import validation_curve, RepeatedStratifiedKFold, GridSearchCV, learning_curve
+from sklearn.model_selection import RepeatedStratifiedKFold, GridSearchCV, learning_curve
 from sklearn import tree
 
 from sklearn.tree import DecisionTreeClassifier
@@ -40,4 +39,23 @@ class MyDecisionTreeClassifier:
                        filled=True,
                        rounded=True
                        )
+        plt.show()
+
+        score, train_scores, valid_scores = learning_curve(estimator=best_model,
+                                                           X=self.x_train, y=self.y_train,
+                                                           scoring='accuracy')
+
+        mean_train_score = np.mean(train_scores, axis=1)
+
+        mean_valuation_score = np.mean(valid_scores, axis=1)
+
+        plt.title('curva di apprendimento')
+        plt.plot(score, mean_train_score,
+                 marker='o', markersize=5,
+                 color='black', label='Training Accuracy')
+        plt.plot(score, mean_valuation_score,
+                 marker='o', markersize=5,
+                 color='green', label='Validation Accuracy')
+        plt.ylabel('Accuracy')
+        plt.grid()
         plt.show()

@@ -42,7 +42,6 @@ class RegressioneLineare:
                                                                 verbose=True,
                                                                 n_jobs=-1)
         # Valutiamo l'andamento medio della curva sia su train che validation set:
-        plt.subplots(1, figsize=(15, 10))
         plt.plot(train_sizes, train_scores, color="blue", label="Training set")
         plt.plot(train_sizes, test_scores, color="darkorange", label="Cross-validation set")
 
@@ -55,7 +54,7 @@ class RegressioneLineare:
         best_model.fit(self.x_train, self.y_train)
         y_pred = best_model.predict(self.x_test)
 
-        print("R2 Score della Regressione lineare :", r2_score(self.y_test, y_pred))
+        print("R2 Score della Regressione lineare :", np.abs(r2_score(self.y_test, y_pred)))
         print("MAE :", mean_absolute_error(self.y_test,y_pred))
         print("MSE :", mean_squared_error(self.y_test,y_pred))
         print("RMSE:", np.sqrt(mean_squared_error(self.y_test, y_pred)))

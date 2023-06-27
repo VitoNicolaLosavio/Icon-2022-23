@@ -2,7 +2,7 @@ import sklearn
 from matplotlib import pyplot as plt
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
-from sklearn.model_selection import StratifiedShuffleSplit, GridSearchCV, learning_curve, validation_curve
+from sklearn.model_selection import StratifiedShuffleSplit, GridSearchCV, learning_curve
 import numpy as np
 
 
@@ -18,9 +18,10 @@ class LogisticRegressionClass:
     def evaluate_model(self, seed):
         C_val = [0.01, 0.05, 0.1, 0.3, 0.5, 0.7]
 
-        param_grid = dict(penalty=["l2"],
-                          C=C_val,
-                          )
+        param_grid = dict(
+            penalty=["l2"],
+            C=C_val,
+        )
         # Creo uno schema di cross validazione mischiata e stratificata grazie alla seguente funzione (voglio k=5):
         cv = StratifiedShuffleSplit(n_splits=5, test_size=0.2, random_state=seed)
         clf = GridSearchCV(LogisticRegression(), param_grid=param_grid, cv=cv, verbose=True, n_jobs=1)
@@ -46,7 +47,6 @@ class LogisticRegressionClass:
                                                                 verbose=True,
                                                                 n_jobs=-1)
         # Valutiamo l'andamento medio della curva sia su train che validation set:
-        plt.subplots(1, figsize=(15, 10))
         plt.plot(train_sizes, train_scores, color="blue", label="Training set")
         plt.plot(train_sizes, test_scores, color="darkorange", label="Cross-validation set")
 
@@ -58,7 +58,7 @@ class LogisticRegressionClass:
 
         y_pred = best_model.predict(self.x_test)
 
-        print("R2 Score della Regressione logistica :", r2_score(self.y_test, y_pred))
+        print("R2 Score della Regressione logistica :", abs(r2_score(self.y_test, y_pred)))
         print("MAE :", mean_absolute_error(self.y_test, y_pred))
         print("MSE :", mean_squared_error(self.y_test, y_pred))
         print("RMSE:", np.sqrt(mean_squared_error(self.y_test, y_pred)))
