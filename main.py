@@ -38,11 +38,11 @@ if __name__ == '__main__':
     firstDataset.create_boxplot("h")
     secondDataset.create_boxplot("h")
 
-    # firstDataset.create_feature_target()
+    firstDataset.create_feature_target()
 
     secondDataset.numeric_variables()
 
-    # firstDataset.categorical_var_normalization("/Normalized_FirstDataset.csv")
+    firstDataset.categorical_var_normalization("/Normalized_FirstDataset.csv")
     secondDataset.categorical_var_normalization("/Normalized_SecondDataset.csv")
 
     normal_firstDataset = Dataset('/Datasets/Normalized_FirstDataset.csv')

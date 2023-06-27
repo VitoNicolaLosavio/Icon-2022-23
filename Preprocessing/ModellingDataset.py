@@ -4,7 +4,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import  LabelEncoder
 from pyswip import Prolog
-import numpy as np
 
 
 class Dataset:

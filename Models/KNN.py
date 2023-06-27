@@ -1,6 +1,6 @@
 import numpy as np
 from matplotlib import pyplot as plt
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report
+from sklearn.metrics import classification_report
 from sklearn.model_selection import GridSearchCV, validation_curve, learning_curve, RepeatedStratifiedKFold
 from sklearn.neighbors import KNeighborsClassifier
 
@@ -15,7 +15,7 @@ class KNN:
 
     def evaluation_model(self, seed):
         self.knn.fit(self.x_train, self.y_train)
-        param_grid = dict(n_neighbors=list(range(1, 50)))
+        param_grid = dict(n_neighbors=list(range(1, 100)))
 
         cv = RepeatedStratifiedKFold(n_splits=5, n_repeats=5, random_state=seed)
         grid = GridSearchCV(self.knn, param_grid, cv=cv, scoring="accuracy", error_score=0)
@@ -24,8 +24,11 @@ class KNN:
 
         parameter_range = np.arange(1, 30, 1)
 
+        X = np.concatenate((self.x_train, self.x_test), axis=0)
+        y = np.concatenate((self.y_train, self.y_test))
+
         score, train_scores, valid_scores = learning_curve(estimator=best_model,
-                                                           X=self.x_train, y=self.y_train,
+                                                           X=X, y=y,
                                                            scoring='accuracy')
 
         mean_train_score = np.mean(train_scores, axis=1)
